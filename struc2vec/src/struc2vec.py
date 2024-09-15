@@ -1,5 +1,5 @@
-from src.GraphAlgorithms import GraphAlgorithms as ga
-from src.RandomWalker import RandomWalker as rw
+import src.GraphAlgorithms as ga
+import src.RandomWalker as rw
 
 class struc2vec():
     def __init__(self, G):
@@ -20,11 +20,10 @@ class struc2vec():
         return nodePairs
     
     def getMultiLevelGraph(self, n_level):
-        self.G_ML, self.adj_dicts = ga().MultiLevelGraph(self,n_level)
+        self.G_ML, self.adj_dicts = ga.MultiLevelGraph(self, n_level)
         self.n_layers = n_level
-        self.upweightdict = ga().getUpWeightDict(self.G_ML)
+        self.upweightdict = ga.getUpWeightDict(self.G_ML)
 
     def getRandomWalks(self, start_node=None, number_of_walks=100, walk_length=10, q=0.2):
-        walks = rw().random_walk(self,start_node, number_of_walks, walk_length, q)
-        return walks
+        return rw.random_walk(self, start_node, number_of_walks, walk_length, q)
         
