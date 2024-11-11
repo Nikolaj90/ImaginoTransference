@@ -1,17 +1,27 @@
+from PreProcess import *
 from GraphAlgorithms import GraphAlgorithms as ga
-from RandomWalker import RandomWalker as rw
+from RandomWalker import *
 import networkx as nx
 
 class struc2vec():
-    def __init__(self, G):
+    def __init__(self, G, preprocess=True):
         '''
         First a graph object is created, this stores the relevant information of the graph and allows the application
         of the struc2vec algorithm and storing the results.
+
+        If graph is directed an undirected graph is made for estimating diameter and for getting neighborhoods in for context graph.
+
+        The graph is set to be preprocess by default, if the context graph has already been generated and needs only to be loaded, it should be set to false.
         '''
-        self.G = G
-        self.nodes = [*G.nodes] # List of all nodes
+        self.is_directed = nx.is_directed(G)
+        self.G_UD = nx.Graph(G)
+        if self.is_directed:
+            self.G_D = G
+        self.nodes = [*self.G_UD.nodes] # List of all nodes
         self.nodePairs = self.getNodePairs()
-        self.diameter = nx.diameter(G)
+        self.diameter = nx.diameter(self.G_UD)
+        if preprocess:
+            self.preprocess()
     
     def getNodePairs(self):
         # Get all unique node pairs as tuples ignoring order
@@ -35,6 +45,6 @@ class struc2vec():
         self.upweightdict = ga().getUpWeightDict(self.G_ML)
 
     def getRandomWalks(self, start_node=None, number_of_walks=100, walk_length=10, q=0.2):
-        walks = rw().random_walk(self,start_node, number_of_walks, walk_length, q)
+        walks = random_walk(self,start_node, number_of_walks, walk_length, q)
         return walks
         
