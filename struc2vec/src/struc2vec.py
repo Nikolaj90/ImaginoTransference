@@ -1,6 +1,6 @@
-from PreProcess import *
-from GraphAlgorithms import GraphAlgorithms as ga
-from RandomWalker import *
+from src.PreProcess import *
+from src.GraphAlgorithms import GraphAlgorithms as ga
+from src.RandomWalker import *
 import networkx as nx
 
 class struc2vec():
@@ -21,7 +21,7 @@ class struc2vec():
         self.nodePairs = self.getNodePairs()
         self.diameter = nx.diameter(self.G_UD)
         if preprocess:
-            self.preprocess()
+            self.DegreeSequences = getDegreeSequences(self.G_UD, self.G_D)
     
     def getNodePairs(self):
         # Get all unique node pairs as tuples ignoring order
