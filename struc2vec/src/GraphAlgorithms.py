@@ -1,6 +1,7 @@
 import numpy as np
 import fastdtw
 import networkx as nx
+import os
 
 class GraphAlgorithms():
     def __init__(self):
@@ -16,7 +17,7 @@ class GraphAlgorithms():
         '''
         visitedNodes = {}
         que = [origin]
-        for layer in range(n_steps):
+        for _ in range(n_steps):
             newQue = []
             for node_0 in que:
                 if node_0 not in visitedNodes:
@@ -64,15 +65,14 @@ class GraphAlgorithms():
             distance, path = fastdtw.fastdtw(ds0, ds1, dist=self.d_func)
             ssm_nodepairs[(v0,v1)] = distance
         return ssm_nodepairs
-            
-    def ssm2weight(self, ssm):
-        return np.exp(-ssm)
     
     def getStrucGraph(self, s2vG, n_steps):
         '''
-        This function will calculate the graph for a specified layer in graph generated from structural similarity
+        This function will calculate the context graph for a specified layer in graph generated from structural similarity.
+
+        It takes s2vG-object as input and the number of layers of neighbors to include for comparison of each node pair.
         '''
-        G_temp = nx.Graph()
+        G = nx.Graph()
         
         # To generate the graph we need to calculate the similarity scores for all nodepairs
         # To do this, we will calculate the DTW distance based on similarity measures of each node
@@ -80,13 +80,24 @@ class GraphAlgorithms():
         
         # Now all the edges are added and the weight is calculated
         for (v0,v1), ssm in ssm_nodepairs.items():
-            G_temp.add_edge(v0,v1,weight=self.ssm2weight(ssm))
-        return G_temp
+            G.add_edge(v0,v1,weight=np.exp(-ssm))
+        return G
     
-    def MultiLevelGraph(self, s2vG, n_level):
-        G_ML = {}
-        for i in range(n_level+1):
-            G_ML[i] = self.getStrucGraph(s2vG, i)
+    def MultiLevelGraph(self, s2vG, n_level, path=None):
+        """
+        This function takes a s2vG-object as input and generates the responding context graph for it. If a path is defined, it loads the graph otherwise the graph is 
+        created. It outputs the context graph as a dictionary object, with layers as keys and graphs as values.
+        """
+        if path:
+            G_ML = {}
+            for file in os.listdir(path):
+                layer_n = int(file.split(".")[0])
+                graph = nx.read_gexf(path + file)
+                G_ML[layer_n] = graph
+        else:
+            G_ML = {}
+            for i in range(n_level+1):
+                G_ML[i] = self.getStrucGraph(s2vG, i)
 
         adj_dicts = self.getAdjacencyDicts(G_ML)
         return G_ML, adj_dicts

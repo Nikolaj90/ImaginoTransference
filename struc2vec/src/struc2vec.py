@@ -1,5 +1,6 @@
-from src.GraphAlgorithms import GraphAlgorithms as ga
-from src.RandomWalker import RandomWalker as rw
+from struc2vec.GraphAlgorithms import GraphAlgorithms as ga
+from struc2vec.RandomWalker import RandomWalker as rw
+import networkx as nx
 
 class struc2vec():
     def __init__(self, G):
@@ -10,6 +11,7 @@ class struc2vec():
         self.G = G
         self.nodes = [*G.nodes] # List of all nodes
         self.nodePairs = self.getNodePairs()
+        self.diameter = nx.diameter(G)
     
     def getNodePairs(self):
         # Get all unique node pairs as tuples ignoring order
@@ -19,9 +21,17 @@ class struc2vec():
                 nodePairs.append((v,d))
         return nodePairs
     
-    def getMultiLevelGraph(self, n_level):
-        self.G_ML, self.adj_dicts = ga().MultiLevelGraph(self,n_level)
-        self.n_layers = n_level
+    def getMultiLevelGraph(self, path=None):
+        """
+        This function generates and saves the context graph for the random walks. It has no output, but saves the G_ML for the object.
+
+        If the context graph has been created, it takes the path as input, and loads and stores the G_ML in the object instead.
+        """
+        if path:
+            if path[-1] != "/":
+                path = path + "/"
+        self.G_ML, self.adj_dicts = ga().MultiLevelGraph(self,self.diameter,path=path)
+        self.n_layers = self.diameter
         self.upweightdict = ga().getUpWeightDict(self.G_ML)
 
     def getRandomWalks(self, start_node=None, number_of_walks=100, walk_length=10, q=0.2):
