@@ -1,5 +1,5 @@
-from struc2vec.GraphAlgorithms import GraphAlgorithms as ga
-from struc2vec.RandomWalker import RandomWalker as rw
+from GraphAlgorithms import GraphAlgorithms as ga
+from RandomWalker import RandomWalker as rw
 import networkx as nx
 
 class struc2vec():
