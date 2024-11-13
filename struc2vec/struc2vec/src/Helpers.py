@@ -59,6 +59,6 @@ def get_meta_data(G, nodes, embeddings, cmap=None):
     
     avg_data = df_meta.drop("Node",axis=1).groupby("Embedding").mean().apply(lambda x: round(x, 3))
 
-    return df_grouped.merge(avg_data, right_index=True, left_index=True)
+    return df_meta, df_grouped.merge(avg_data, right_index=True, left_index=True)
 
 
