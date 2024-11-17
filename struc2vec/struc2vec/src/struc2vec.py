@@ -1,6 +1,6 @@
-from src.PreProcess import *
-from src.GraphAlgorithms import GraphAlgorithms as ga
-from src.RandomWalker import *
+from struc2vec.src.PreProcess import *
+from struc2vec.src.GraphAlgorithms import GraphAlgorithms as ga
+from struc2vec.src.RandomWalker import *
 import networkx as nx
 
 class struc2vec():
