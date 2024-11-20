@@ -1,0 +1,2217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-20">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="AFG" label="AFG" />
+      <node id="DEU" label="DEU" />
+      <node id="SAU" label="SAU" />
+      <node id="SWE" label="SWE" />
+      <node id="AUT" label="AUT" />
+      <node id="BEL" label="BEL" />
+      <node id="AUS" label="AUS" />
+      <node id="GBR" label="GBR" />
+      <node id="USA" label="USA" />
+      <node id="GRC" label="GRC" />
+      <node id="TUR" label="TUR" />
+      <node id="ITA" label="ITA" />
+      <node id="NOR" label="NOR" />
+      <node id="MLT" label="MLT" />
+      <node id="HKG" label="HKG" />
+      <node id="NZL" label="NZL" />
+      <node id="NLD" label="NLD" />
+      <node id="CAN" label="CAN" />
+      <node id="ZAF" label="ZAF" />
+      <node id="JPN" label="JPN" />
+      <node id="CHL" label="CHL" />
+      <node id="DNK" label="DNK" />
+      <node id="IRL" label="IRL" />
+      <node id="FRA" label="FRA" />
+      <node id="IDN" label="IDN" />
+      <node id="CHE" label="CHE" />
+      <node id="ROU" label="ROU" />
+      <node id="HUN" label="HUN" />
+      <node id="SVK" label="SVK" />
+      <node id="BGR" label="BGR" />
+      <node id="BHR" label="BHR" />
+      <node id="BGD" label="BGD" />
+      <node id="OMN" label="OMN" />
+      <node id="ARE" label="ARE" />
+      <node id="EGY" label="EGY" />
+      <node id="LUX" label="LUX" />
+      <node id="ESP" label="ESP" />
+      <node id="BRA" label="BRA" />
+      <node id="CHN" label="CHN" />
+      <node id="BOL" label="BOL" />
+      <node id="PRT" label="PRT" />
+      <node id="CZE" label="CZE" />
+      <node id="PER" label="PER" />
+      <node id="KOR" label="KOR" />
+      <node id="MEX" label="MEX" />
+      <node id="LKA" label="LKA" />
+      <node id="QAT" label="QAT" />
+      <node id="KWT" label="KWT" />
+      <node id="ARG" label="ARG" />
+      <node id="COL" label="COL" />
+      <node id="ISL" label="ISL" />
+      <node id="FRO" label="FRO" />
+      <node id="ECU" label="ECU" />
+      <node id="EST" label="EST" />
+      <node id="FIN" label="FIN" />
+      <node id="NCL" label="NCL" />
+      <node id="MAR" label="MAR" />
+      <node id="GUF" label="GUF" />
+      <node id="POL" label="POL" />
+      <node id="REU" label="REU" />
+      <node id="GAB" label="GAB" />
+      <node id="GEO" label="GEO" />
+      <node id="UKR" label="UKR" />
+      <node id="IND" label="IND" />
+      <node id="MYS" label="MYS" />
+      <node id="IRQ" label="IRQ" />
+      <node id="JOR" label="JOR" />
+      <node id="LBY" label="LBY" />
+      <node id="BRN" label="BRN" />
+      <node id="MLI" label="MLI" />
+      <node id="NGA" label="NGA" />
+      <node id="MRT" label="MRT" />
+      <node id="SEN" label="SEN" />
+      <node id="GMB" label="GMB" />
+      <node id="COD" label="COD" />
+      <node id="GHA" label="GHA" />
+      <node id="NAM" label="NAM" />
+      <node id="ZMB" label="ZMB" />
+      <node id="NIC" label="NIC" />
+      <node id="CRI" label="CRI" />
+      <node id="PAN" label="PAN" />
+      <node id="GTM" label="GTM" />
+      <node id="HND" label="HND" />
+      <node id="LTU" label="LTU" />
+      <node id="PHL" label="PHL" />
+      <node id="SVN" label="SVN" />
+      <node id="MOZ" label="MOZ" />
+      <node id="ZWE" label="ZWE" />
+      <node id="AND" label="AND" />
+      <node id="LIE" label="LIE" />
+      <node id="KAZ" label="KAZ" />
+      <node id="SDN" label="SDN" />
+      <node id="ALB" label="ALB" />
+      <node id="PRY" label="PRY" />
+      <node id="URY" label="URY" />
+      <node id="LVA" label="LVA" />
+      <node id="MNE" label="MNE" />
+      <node id="SRB" label="SRB" />
+      <node id="SMR" label="SMR" />
+      <node id="MKD" label="MKD" />
+      <node id="DZA" label="DZA" />
+      <node id="PYF" label="PYF" />
+      <node id="BFA" label="BFA" />
+      <node id="BEN" label="BEN" />
+      <node id="GLP" label="GLP" />
+      <node id="NER" label="NER" />
+      <node id="TGO" label="TGO" />
+      <node id="PRI" label="PRI" />
+      <node id="GNB" label="GNB" />
+      <node id="ESH" label="ESH" />
+      <node id="TUN" label="TUN" />
+      <node id="AGO" label="AGO" />
+      <node id="BWA" label="BWA" />
+      <node id="CPV" label="CPV" />
+      <node id="UGA" label="UGA" />
+      <node id="TZA" label="TZA" />
+      <node id="BDI" label="BDI" />
+      <node id="RWA" label="RWA" />
+      <node id="MWI" label="MWI" />
+      <node id="SSD" label="SSD" />
+      <node id="ERI" label="ERI" />
+      <node id="ETH" label="ETH" />
+      <node id="SWZ" label="SWZ" />
+      <node id="AIA" label="AIA" />
+      <node id="ATG" label="ATG" />
+      <node id="VGB" label="VGB" />
+      <node id="SXM" label="SXM" />
+      <node id="DOM" label="DOM" />
+      <node id="CUW" label="CUW" />
+      <node id="BRB" label="BRB" />
+      <node id="TTO" label="TTO" />
+      <node id="CYM" label="CYM" />
+      <node id="DMA" label="DMA" />
+      <node id="JAM" label="JAM" />
+      <node id="BHS" label="BHS" />
+      <node id="MSR" label="MSR" />
+      <node id="KNA" label="KNA" />
+      <node id="VIR" label="VIR" />
+      <node id="TCA" label="TCA" />
+      <node id="SLV" label="SLV" />
+      <node id="BLZ" label="BLZ" />
+      <node id="HTI" label="HTI" />
+      <node id="ARM" label="ARM" />
+      <node id="ABW" label="ABW" />
+      <node id="BTN" label="BTN" />
+      <node id="KHM" label="KHM" />
+      <node id="THA" label="THA" />
+      <node id="CAF" label="CAF" />
+      <node id="TCD" label="TCD" />
+      <node id="MAC" label="MAC" />
+      <node id="COK" label="COK" />
+      <node id="FJI" label="FJI" />
+      <node id="KIR" label="KIR" />
+      <node id="PRK" label="PRK" />
+      <node id="VNM" label="VNM" />
+      <node id="LAO" label="LAO" />
+      <node id="MDV" label="MDV" />
+      <node id="MNG" label="MNG" />
+      <node id="NRU" label="NRU" />
+      <node id="VUT" label="VUT" />
+      <node id="PNG" label="PNG" />
+      <node id="AZE" label="AZE" />
+      <node id="MMR" label="MMR" />
+      <node id="MUS" label="MUS" />
+      <node id="NFK" label="NFK" />
+      <node id="GUM" label="GUM" />
+      <node id="SYC" label="SYC" />
+      <node id="GRD" label="GRD" />
+      <node id="GUY" label="GUY" />
+      <node id="SUR" label="SUR" />
+      <node id="VCT" label="VCT" />
+      <node id="BLR" label="BLR" />
+      <node id="CMR" label="CMR" />
+      <node id="SLE" label="SLE" />
+      <node id="LBR" label="LBR" />
+      <node id="BMU" label="BMU" />
+      <node id="BIH" label="BIH" />
+      <node id="LSO" label="LSO" />
+      <node id="SOM" label="SOM" />
+      <node id="GNQ" label="GNQ" />
+      <node id="MDG" label="MDG" />
+      <node id="MHL" label="MHL" />
+      <node id="PLW" label="PLW" />
+      <node id="COM" label="COM" />
+      <node id="MYT" label="MYT" />
+      <node id="HRV" label="HRV" />
+      <node id="CUB" label="CUB" />
+      <node id="CYP" label="CYP" />
+      <node id="DJI" label="DJI" />
+      <node id="YEM" label="YEM" />
+      <node id="TUV" label="TUV" />
+      <node id="MCO" label="MCO" />
+      <node id="SPM" label="SPM" />
+      <node id="GIB" label="GIB" />
+      <node id="GRL" label="GRL" />
+      <node id="GIN" label="GIN" />
+      <node id="IRN" label="IRN" />
+      <node id="ISR" label="ISR" />
+      <node id="FSM" label="FSM" />
+      <node id="KEN" label="KEN" />
+      <node id="KGZ" label="KGZ" />
+      <node id="LBN" label="LBN" />
+      <node id="MTQ" label="MTQ" />
+      <node id="NPL" label="NPL" />
+      <node id="NIU" label="NIU" />
+      <node id="PAK" label="PAK" />
+      <node id="MDA" label="MDA" />
+      <node id="RUS" label="RUS" />
+      <node id="LCA" label="LCA" />
+      <node id="WSM" label="WSM" />
+      <node id="STP" label="STP" />
+      <node id="SGP" label="SGP" />
+      <node id="SLB" label="SLB" />
+      <node id="PSE" label="PSE" />
+      <node id="SYR" label="SYR" />
+      <node id="TJK" label="TJK" />
+      <node id="TLS" label="TLS" />
+      <node id="TON" label="TON" />
+      <node id="TKM" label="TKM" />
+      <node id="UZB" label="UZB" />
+      <node id="VEN" label="VEN" />
+    </nodes>
+    <edges>
+      <edge source="AFG" target="DEU" id="0" weight="0.411299017749099" />
+      <edge source="AFG" target="SAU" id="1" weight="0.2772427073063772" />
+      <edge source="AFG" target="SWE" id="2" weight="0.0466429044819525" />
+      <edge source="AFG" target="AUT" id="3" weight="0.03937246729951893" />
+      <edge source="AFG" target="BEL" id="4" weight="0.034842045218492296" />
+      <edge source="AFG" target="AUS" id="5" weight="0.033790222333596014" />
+      <edge source="AFG" target="GBR" id="6" weight="0.021742069288420388" />
+      <edge source="AFG" target="USA" id="7" weight="0.01951972250340441" />
+      <edge source="AFG" target="GRC" id="8" weight="0.01933177922930069" />
+      <edge source="AFG" target="TUR" id="9" weight="0.01579053227513576" />
+      <edge source="AFG" target="ITA" id="10" weight="0.014478226606832565" />
+      <edge source="AFG" target="NOR" id="11" weight="0.013442889974050633" />
+      <edge source="DEU" target="TUR" id="12" weight="0.33503148095558033" />
+      <edge source="DEU" target="GBR" id="13" weight="0.14376303048353914" />
+      <edge source="DEU" target="AUT" id="14" weight="0.13983224010029577" />
+      <edge source="DEU" target="FRA" id="15" weight="0.04225513080700683" />
+      <edge source="DEU" target="ZAF" id="16" weight="0.03708103315716928" />
+      <edge source="DEU" target="CAN" id="17" weight="0.03594854993662248" />
+      <edge source="DEU" target="CHE" id="18" weight="0.03487840524197736" />
+      <edge source="DEU" target="ROU" id="19" weight="0.03473294868154016" />
+      <edge source="DEU" target="CHL" id="20" weight="0.018912816108275093" />
+      <edge source="DEU" target="LUX" id="21" weight="0.017080756097054155" />
+      <edge source="DEU" target="POL" id="22" weight="0.01560887423548724" />
+      <edge source="DEU" target="NLD" id="23" weight="0.014199330899821986" />
+      <edge source="DEU" target="ITA" id="24" weight="0.013257326508419163" />
+      <edge source="DEU" target="BGR" id="25" weight="0.013163818719566674" />
+      <edge source="DEU" target="BEL" id="26" weight="0.012530043706233156" />
+      <edge source="DEU" target="AUS" id="27" weight="0.012124843287872384" />
+      <edge source="DEU" target="SWE" id="28" weight="0.008540378048527078" />
+      <edge source="DEU" target="BRA" id="29" weight="0.008474576271186437" />
+      <edge source="DEU" target="EGY" id="30" weight="0.007923919292388464" />
+      <edge source="DEU" target="HUN" id="31" weight="0.007272828021860043" />
+      <edge source="DEU" target="NOR" id="32" weight="0.0070061576610585055" />
+      <edge source="SAU" target="USA" id="33" weight="0.23460214550680078" />
+      <edge source="SAU" target="SWE" id="34" weight="0.1600441132239414" />
+      <edge source="SAU" target="GBR" id="35" weight="0.11927280018714706" />
+      <edge source="SAU" target="EGY" id="36" weight="0.08107475854693713" />
+      <edge source="SAU" target="LBY" id="37" weight="0.07235237108578685" />
+      <edge source="SAU" target="TUR" id="38" weight="0.05196671456738963" />
+      <edge source="SAU" target="CAN" id="39" weight="0.04775590682752398" />
+      <edge source="SAU" target="DEU" id="40" weight="0.04344484176051866" />
+      <edge source="SAU" target="NLD" id="41" weight="0.03672760084216155" />
+      <edge source="SAU" target="AUS" id="42" weight="0.023092604351167997" />
+      <edge source="SAU" target="ARE" id="43" weight="0.014938341743809107" />
+      <edge source="SAU" target="OMN" id="44" weight="0.012933195201015943" />
+      <edge source="SAU" target="JOR" id="45" weight="0.012298232129131432" />
+      <edge source="SWE" target="GBR" id="46" weight="0.16661888036699882" />
+      <edge source="SWE" target="USA" id="47" weight="0.14920077413805463" />
+      <edge source="SWE" target="FIN" id="48" weight="0.12762525983800446" />
+      <edge source="SWE" target="NOR" id="49" weight="0.09726901297398037" />
+      <edge source="SWE" target="TUR" id="50" weight="0.06755788115547273" />
+      <edge source="SWE" target="DEU" id="51" weight="0.05852627051824241" />
+      <edge source="SWE" target="DNK" id="52" weight="0.05723604042720952" />
+      <edge source="SWE" target="CHL" id="53" weight="0.044871335388144216" />
+      <edge source="SWE" target="AUS" id="54" weight="0.028779298974983873" />
+      <edge source="SWE" target="NLD" id="55" weight="0.028205863378969253" />
+      <edge source="SWE" target="AUT" id="56" weight="0.022937423840584906" />
+      <edge source="SWE" target="FRA" id="57" weight="0.019819367787255397" />
+      <edge source="SWE" target="ROU" id="58" weight="0.01763314457744965" />
+      <edge source="SWE" target="CAN" id="59" weight="0.016880510357680453" />
+      <edge source="AUT" target="DEU" id="60" weight="0.46517896597437036" />
+      <edge source="AUT" target="TUR" id="61" weight="0.11199734865223156" />
+      <edge source="AUT" target="USA" id="62" weight="0.09025629695095007" />
+      <edge source="AUT" target="GBR" id="63" weight="0.0739946973044631" />
+      <edge source="AUT" target="ROU" id="64" weight="0.03559434379142732" />
+      <edge source="AUT" target="CAN" id="65" weight="0.024900574458683173" />
+      <edge source="AUT" target="ZAF" id="66" weight="0.022448077772867888" />
+      <edge source="AUT" target="HUN" id="67" weight="0.022094564737074683" />
+      <edge source="AUT" target="CHE" id="68" weight="0.01752098983650022" />
+      <edge source="AUT" target="SVK" id="69" weight="0.01524524966858153" />
+      <edge source="AUT" target="FRA" id="70" weight="0.01407423773751657" />
+      <edge source="AUT" target="BGR" id="71" weight="0.01312417145382236" />
+      <edge source="AUT" target="CHL" id="72" weight="0.01175430844012373" />
+      <edge source="BEL" target="FRA" id="73" weight="0.1802839593193032" />
+      <edge source="BEL" target="NLD" id="74" weight="0.14012687544053973" />
+      <edge source="BEL" target="GBR" id="75" weight="0.08285167656832143" />
+      <edge source="BEL" target="LUX" id="76" weight="0.07825999395831236" />
+      <edge source="BEL" target="TUR" id="77" weight="0.06230993857617561" />
+      <edge source="BEL" target="ESP" id="78" weight="0.060779377706172574" />
+      <edge source="BEL" target="USA" id="79" weight="0.059369650589064536" />
+      <edge source="BEL" target="DEU" id="80" weight="0.05751686637800827" />
+      <edge source="BEL" target="ROU" id="81" weight="0.036330681703755904" />
+      <edge source="BEL" target="ITA" id="82" weight="0.034014701439935555" />
+      <edge source="BEL" target="ZAF" id="83" weight="0.030208438223743833" />
+      <edge source="BEL" target="CAN" id="84" weight="0.0271473164837378" />
+      <edge source="BEL" target="CHE" id="85" weight="0.022273688450307118" />
+      <edge source="BEL" target="CHL" id="86" weight="0.016957003322928207" />
+      <edge source="AUS" target="GBR" id="87" weight="0.34877007277320016" />
+      <edge source="AUS" target="USA" id="88" weight="0.14300034081113047" />
+      <edge source="AUS" target="MLT" id="89" weight="0.07387582446222007" />
+      <edge source="AUS" target="HKG" id="90" weight="0.05386820633106795" />
+      <edge source="AUS" target="NZL" id="91" weight="0.03642669553537419" />
+      <edge source="AUS" target="NLD" id="92" weight="0.031154146869549527" />
+      <edge source="AUS" target="CAN" id="93" weight="0.030111665764519555" />
+      <edge source="AUS" target="ZAF" id="94" weight="0.027244842725687134" />
+      <edge source="AUS" target="SWE" id="95" weight="0.024197590264830295" />
+      <edge source="AUS" target="DEU" id="96" weight="0.02275415488863495" />
+      <edge source="AUS" target="JPN" id="97" weight="0.02103005152262384" />
+      <edge source="AUS" target="TUR" id="98" weight="0.020789478959924623" />
+      <edge source="AUS" target="CHL" id="99" weight="0.01992742727691907" />
+      <edge source="AUS" target="ITA" id="100" weight="0.01665964996692127" />
+      <edge source="AUS" target="DNK" id="101" weight="0.013612397506064435" />
+      <edge source="AUS" target="IRL" id="102" weight="0.012950822958641563" />
+      <edge source="AUS" target="FRA" id="103" weight="0.010184238487600491" />
+      <edge source="AUS" target="IDN" id="104" weight="0.009642950221527235" />
+      <edge source="AUS" target="AUT" id="105" weight="0.009001423387662638" />
+      <edge source="AUS" target="CHE" id="106" weight="0.008319801126681504" />
+      <edge source="GBR" target="AUS" id="107" weight="0.1990202125472347" />
+      <edge source="GBR" target="CAN" id="108" weight="0.1259296282904765" />
+      <edge source="GBR" target="USA" id="109" weight="0.11621682937377262" />
+      <edge source="GBR" target="IRL" id="110" weight="0.09109116560676633" />
+      <edge source="GBR" target="ZAF" id="111" weight="0.05019461046004637" />
+      <edge source="GBR" target="ROU" id="112" weight="0.04119077496791941" />
+      <edge source="GBR" target="DEU" id="113" weight="0.04051725971457133" />
+      <edge source="GBR" target="FRA" id="114" weight="0.03461513920496841" />
+      <edge source="GBR" target="MLT" id="115" weight="0.03137872117177476" />
+      <edge source="GBR" target="NZL" id="116" weight="0.026309632686049723" />
+      <edge source="GBR" target="TUR" id="117" weight="0.023707736917852412" />
+      <edge source="GBR" target="NLD" id="118" weight="0.02090024175652778" />
+      <edge source="GBR" target="HKG" id="119" weight="0.01851103501570354" />
+      <edge source="GBR" target="SWE" id="120" weight="0.01772054079730027" />
+      <edge source="GBR" target="ITA" id="121" weight="0.013257616039588518" />
+      <edge source="GBR" target="BGR" id="122" weight="0.011534834917866587" />
+      <edge source="GBR" target="HUN" id="123" weight="0.011283152902141779" />
+      <edge source="GBR" target="QAT" id="124" weight="0.010903857469993122" />
+      <edge source="GBR" target="DNK" id="125" weight="0.008950663235283691" />
+      <edge source="GBR" target="OMN" id="126" weight="0.007692253156659649" />
+      <edge source="GBR" target="POL" id="127" weight="0.007231426930684647" />
+      <edge source="GBR" target="AUT" id="128" weight="0.00704355162317176" />
+      <edge source="GBR" target="ARE" id="129" weight="0.007029372354680223" />
+      <edge source="GBR" target="SVK" id="130" weight="0.006260147039014258" />
+      <edge source="GBR" target="CHL" id="131" weight="0.005944658315077525" />
+      <edge source="GBR" target="NOR" id="132" weight="0.005278232695975216" />
+      <edge source="GBR" target="JPN" id="133" weight="0.0050655436686021385" />
+      <edge source="GBR" target="CHE" id="134" weight="0.005051364400110598" />
+      <edge source="USA" target="GBR" id="135" weight="0.14330100325153544" />
+      <edge source="USA" target="MEX" id="136" weight="0.12743795681293946" />
+      <edge source="USA" target="CAN" id="137" weight="0.10036961898674374" />
+      <edge source="USA" target="DEU" id="138" weight="0.0625017369313287" />
+      <edge source="USA" target="AUS" id="139" weight="0.05502042631242532" />
+      <edge source="USA" target="PER" id="140" weight="0.04119167384598281" />
+      <edge source="USA" target="ESP" id="141" weight="0.03298224161409554" />
+      <edge source="USA" target="CHL" id="142" weight="0.02834671928410638" />
+      <edge source="USA" target="TUR" id="143" weight="0.0266848233888225" />
+      <edge source="USA" target="NLD" id="144" weight="0.023961315065447575" />
+      <edge source="USA" target="JPN" id="145" weight="0.022510630019731543" />
+      <edge source="USA" target="HKG" id="146" weight="0.02176583386599228" />
+      <edge source="USA" target="FRA" id="147" weight="0.01823083122585666" />
+      <edge source="USA" target="ITA" id="148" weight="0.01737487146708168" />
+      <edge source="USA" target="SWE" id="149" weight="0.016724564377622767" />
+      <edge source="USA" target="IRL" id="150" weight="0.01669121529611205" />
+      <edge source="USA" target="BRA" id="151" weight="0.014773643109246032" />
+      <edge source="USA" target="CZE" id="152" weight="0.013567517994608567" />
+      <edge source="USA" target="DNK" id="153" weight="0.01244476558374788" />
+      <edge source="USA" target="QAT" id="154" weight="0.011366478614901481" />
+      <edge source="USA" target="AUT" id="155" weight="0.011088569602312203" />
+      <edge source="USA" target="ROU" id="156" weight="0.010999638718283633" />
+      <edge source="USA" target="ZAF" id="157" weight="0.010643915182169356" />
+      <edge source="USA" target="CHE" id="158" weight="0.010627240641414" />
+      <edge source="USA" target="LUX" id="159" weight="0.01037712253008365" />
+      <edge source="USA" target="EGY" id="160" weight="0.009943584470444376" />
+      <edge source="USA" target="NOR" id="161" weight="0.008403968540699774" />
+      <edge source="USA" target="CHN" id="162" weight="0.008037128644081926" />
+      <edge source="USA" target="KOR" id="163" weight="0.006658699941639107" />
+      <edge source="USA" target="PHL" id="164" weight="0.0062196037017480475" />
+      <edge source="USA" target="ARE" id="165" weight="0.005897229247144485" />
+      <edge source="USA" target="MLT" id="166" weight="0.005686018397576634" />
+      <edge source="GRC" target="DEU" id="167" weight="0.674900049800565" />
+      <edge source="GRC" target="TUR" id="168" weight="0.09746947970045197" />
+      <edge source="GRC" target="USA" id="169" weight="0.05640961197447603" />
+      <edge source="GRC" target="GBR" id="170" weight="0.028325816705995155" />
+      <edge source="GRC" target="SWE" id="171" weight="0.020781263817329667" />
+      <edge source="GRC" target="CAN" id="172" weight="0.020771955300502198" />
+      <edge source="GRC" target="NLD" id="173" weight="0.01548937200091224" />
+      <edge source="GRC" target="ROU" id="174" weight="0.011486709765099577" />
+      <edge source="GRC" target="CHE" id="175" weight="0.009694820275811356" />
+      <edge source="GRC" target="AUS" id="176" weight="0.00875931433465049" />
+      <edge source="GRC" target="ZAF" id="177" weight="0.007926202078591807" />
+      <edge source="GRC" target="BEL" id="178" weight="0.007628329540112729" />
+      <edge source="TUR" target="DEU" id="179" weight="0.5483358344307535" />
+      <edge source="TUR" target="AUT" id="180" weight="0.11349878007697253" />
+      <edge source="TUR" target="USA" id="181" weight="0.10309965937435134" />
+      <edge source="TUR" target="FRA" id="182" weight="0.06159845646559203" />
+      <edge source="TUR" target="GBR" id="183" weight="0.04245740477964821" />
+      <edge source="TUR" target="BEL" id="184" weight="0.019767176754426265" />
+      <edge source="TUR" target="ROU" id="185" weight="0.014567616403115656" />
+      <edge source="TUR" target="SWE" id="186" weight="0.012981886610111239" />
+      <edge source="TUR" target="CHE" id="187" weight="0.011130734233728404" />
+      <edge source="TUR" target="AUS" id="188" weight="0.01078704601678968" />
+      <edge source="TUR" target="ARE" id="189" weight="0.008827002324149033" />
+      <edge source="TUR" target="BGR" id="190" weight="0.008228100084731056" />
+      <edge source="TUR" target="KAZ" id="191" weight="0.007176618312116543" />
+      <edge source="TUR" target="CAN" id="192" weight="0.006468824756440753" />
+      <edge source="ITA" target="DEU" id="193" weight="0.5720475896044837" />
+      <edge source="ITA" target="ROU" id="194" weight="0.05832768215090651" />
+      <edge source="ITA" target="GBR" id="195" weight="0.05159363344436244" />
+      <edge source="ITA" target="ESP" id="196" weight="0.04860681732054172" />
+      <edge source="ITA" target="FRA" id="197" weight="0.04730289008117757" />
+      <edge source="ITA" target="CAN" id="198" weight="0.041989947543730165" />
+      <edge source="ITA" target="CHE" id="199" weight="0.027846201408141688" />
+      <edge source="ITA" target="NLD" id="200" weight="0.01897550711051718" />
+      <edge source="ITA" target="BEL" id="201" weight="0.01614825378463012" />
+      <edge source="ITA" target="BRA" id="202" weight="0.01395925165047769" />
+      <edge source="ITA" target="AUT" id="203" weight="0.013380836507968168" />
+      <edge source="ITA" target="ZAF" id="204" weight="0.010974928695374675" />
+      <edge source="ITA" target="AUS" id="205" weight="0.010239443923649201" />
+      <edge source="ITA" target="CHL" id="206" weight="0.00939675289706205" />
+      <edge source="ITA" target="SWE" id="207" weight="0.008773460717633684" />
+      <edge source="ITA" target="DNK" id="208" weight="0.008272333805373278" />
+      <edge source="ITA" target="ARG" id="209" weight="0.006656760476294952" />
+      <edge source="ITA" target="MLT" id="210" weight="0.003313421225841196" />
+      <edge source="ITA" target="EGY" id="211" weight="0.00308654287252927" />
+      <edge source="ITA" target="TUR" id="212" weight="0.0025031413925843187" />
+      <edge source="NOR" target="GBR" id="213" weight="0.2072985706300407" />
+      <edge source="NOR" target="USA" id="214" weight="0.18414118022837977" />
+      <edge source="NOR" target="TUR" id="215" weight="0.10029545636029708" />
+      <edge source="NOR" target="DEU" id="216" weight="0.05765391679310068" />
+      <edge source="NOR" target="LTU" id="217" weight="0.04703345843647687" />
+      <edge source="NOR" target="ROU" id="218" weight="0.04208256807474247" />
+      <edge source="NOR" target="DNK" id="219" weight="0.037930208416513615" />
+      <edge source="NOR" target="CHL" id="220" weight="0.02722989698953925" />
+      <edge source="NOR" target="AUS" id="221" weight="0.024355186456919267" />
+      <edge source="NOR" target="NLD" id="222" weight="0.022598418909207055" />
+      <edge source="NOR" target="CAN" id="223" weight="0.02203944741675317" />
+      <edge source="NOR" target="FRA" id="224" weight="0.01972370837658708" />
+      <edge source="MLT" target="GBR" id="225" weight="0.684217668611752" />
+      <edge source="MLT" target="USA" id="226" weight="0.09051431673225674" />
+      <edge source="MLT" target="CAN" id="227" weight="0.07205862396525989" />
+      <edge source="MLT" target="AUS" id="228" weight="0.06540914642420954" />
+      <edge source="MLT" target="ITA" id="229" weight="0.012620436965666984" />
+      <edge source="MLT" target="NLD" id="230" weight="0.0090921427602117" />
+      <edge source="MLT" target="ZAF" id="231" weight="0.008549328267064728" />
+      <edge source="HKG" target="USA" id="232" weight="0.25538635371459395" />
+      <edge source="HKG" target="GBR" id="233" weight="0.20456588171849724" />
+      <edge source="HKG" target="CAN" id="234" weight="0.19094270819958395" />
+      <edge source="HKG" target="CHN" id="235" weight="0.1874117254307799" />
+      <edge source="HKG" target="AUS" id="236" weight="0.1298759662052849" />
+      <edge source="HKG" target="MAC" id="237" weight="0.01683315785418967" />
+      <edge source="NZL" target="AUS" id="238" weight="0.5853921522666541" />
+      <edge source="NZL" target="GBR" id="239" weight="0.23911209038488582" />
+      <edge source="NZL" target="USA" id="240" weight="0.06394449392902347" />
+      <edge source="NZL" target="CAN" id="241" weight="0.016478364821152315" />
+      <edge source="NZL" target="HKG" id="242" weight="0.01556420233463035" />
+      <edge source="NZL" target="ZAF" id="243" weight="0.013806197552857346" />
+      <edge source="NZL" target="NLD" id="244" weight="0.010665229009422905" />
+      <edge source="NZL" target="DEU" id="245" weight="0.006188176831840982" />
+      <edge source="NZL" target="JPN" id="246" weight="0.0057193755567015135" />
+      <edge source="NZL" target="IRL" id="247" weight="0.005203694154048097" />
+      <edge source="NZL" target="SWE" id="248" weight="0.004711452815151657" />
+      <edge source="NZL" target="CHL" id="249" weight="0.003305048989733251" />
+      <edge source="NZL" target="FRA" id="250" weight="0.002789367587079837" />
+      <edge source="NZL" target="MYS" id="251" weight="0.0024846467582391825" />
+      <edge source="NZL" target="DNK" id="252" weight="0.0023908865032112882" />
+      <edge source="NLD" target="DEU" id="253" weight="0.24625066306601726" />
+      <edge source="NLD" target="GBR" id="254" weight="0.10587355933838066" />
+      <edge source="NLD" target="BEL" id="255" weight="0.10269084245551427" />
+      <edge source="NLD" target="TUR" id="256" weight="0.09303419009499926" />
+      <edge source="NLD" target="USA" id="257" weight="0.08939335487293242" />
+      <edge source="NLD" target="CAN" id="258" weight="0.07591503110382408" />
+      <edge source="NLD" target="ZAF" id="259" weight="0.04576361093697255" />
+      <edge source="NLD" target="FRA" id="260" weight="0.02853595023388145" />
+      <edge source="NLD" target="SWE" id="261" weight="0.024292327723392966" />
+      <edge source="NLD" target="ESP" id="262" weight="0.01852968124608188" />
+      <edge source="NLD" target="AUT" id="263" weight="0.01843323527993441" />
+      <edge source="NLD" target="AUS" id="264" weight="0.017842503737281183" />
+      <edge source="NLD" target="CHE" id="265" weight="0.010584944784684377" />
+      <edge source="NLD" target="NOR" id="266" weight="0.010379997106621013" />
+      <edge source="NLD" target="ROU" id="267" weight="0.009367314462072623" />
+      <edge source="NLD" target="DNK" id="268" weight="0.009150311038240823" />
+      <edge source="NLD" target="CHL" id="269" weight="0.007860346241018468" />
+      <edge source="NLD" target="NZL" id="270" weight="0.006919998071080676" />
+      <edge source="CAN" target="GBR" id="271" weight="0.2978306023540272" />
+      <edge source="CAN" target="AUS" id="272" weight="0.12019386106623585" />
+      <edge source="CAN" target="HKG" id="273" weight="0.10000000000000002" />
+      <edge source="CAN" target="CHL" id="274" weight="0.04253404108008308" />
+      <edge source="CAN" target="DEU" id="275" weight="0.037133625663512575" />
+      <edge source="CAN" target="FRA" id="276" weight="0.03614124163397184" />
+      <edge source="CAN" target="MLT" id="277" weight="0.03454881144703439" />
+      <edge source="CAN" target="NLD" id="278" weight="0.027209785368105237" />
+      <edge source="CAN" target="ZAF" id="279" weight="0.02478652204015693" />
+      <edge source="CAN" target="ITA" id="280" weight="0.02464804984998846" />
+      <edge source="CAN" target="JPN" id="281" weight="0.022709439187629823" />
+      <edge source="CAN" target="SWE" id="282" weight="0.015578121393953379" />
+      <edge source="CAN" target="PER" id="283" weight="0.013547195938149093" />
+      <edge source="CAN" target="LUX" id="284" weight="0.013524117239787673" />
+      <edge source="CAN" target="IRL" id="285" weight="0.012000923147934456" />
+      <edge source="CAN" target="TUR" id="286" weight="0.011608585275790449" />
+      <edge source="CAN" target="CHE" id="287" weight="0.011193168705285018" />
+      <edge source="CAN" target="CHN" id="288" weight="0.010754673436418186" />
+      <edge source="CAN" target="AUT" id="289" weight="0.010593122547888302" />
+      <edge source="CAN" target="ROU" id="290" weight="0.00863143318716824" />
+      <edge source="CAN" target="NOR" id="291" weight="0.007708285252711746" />
+      <edge source="CAN" target="KOR" id="292" weight="0.007177475190399261" />
+      <edge source="CAN" target="MEX" id="293" weight="0.0068774521117009" />
+      <edge source="ZAF" target="GBR" id="294" weight="0.3788191267055465" />
+      <edge source="ZAF" target="AUS" id="295" weight="0.25611538303945797" />
+      <edge source="ZAF" target="USA" id="296" weight="0.11026127811846972" />
+      <edge source="ZAF" target="CAN" id="297" weight="0.04340522009915729" />
+      <edge source="ZAF" target="NLD" id="298" weight="0.030662277886283233" />
+      <edge source="ZAF" target="NZL" id="299" weight="0.021484081565756583" />
+      <edge source="ZAF" target="DEU" id="300" weight="0.0205007033885573" />
+      <edge source="ZAF" target="SWE" id="301" weight="0.012510755698813115" />
+      <edge source="ZAF" target="IRL" id="302" weight="0.012005408579974597" />
+      <edge source="ZAF" target="ZMB" id="303" weight="0.010666921616564457" />
+      <edge source="ZAF" target="MOZ" id="304" weight="0.01062594752584782" />
+      <edge source="ZAF" target="LUX" id="305" weight="0.00785336738735539" />
+      <edge source="ZAF" target="ZWE" id="306" weight="0.006979253452067141" />
+      <edge source="ZAF" target="CHE" id="307" weight="0.006924621331111626" />
+      <edge source="ZAF" target="AUT" id="308" weight="0.0068699892101561095" />
+      <edge source="ZAF" target="NAM" id="309" weight="0.006624144665856289" />
+      <edge source="JPN" target="USA" id="310" weight="0.26497005988023953" />
+      <edge source="JPN" target="BRA" id="311" weight="0.12717668112051758" />
+      <edge source="JPN" target="GBR" id="312" weight="0.10874802119898133" />
+      <edge source="JPN" target="AUS" id="313" weight="0.09661711060637346" />
+      <edge source="JPN" target="HKG" id="314" weight="0.07214880583660266" />
+      <edge source="JPN" target="DEU" id="315" weight="0.056283983756624675" />
+      <edge source="JPN" target="CAN" id="316" weight="0.033347098905636995" />
+      <edge source="JPN" target="FRA" id="317" weight="0.02236905499346135" />
+      <edge source="JPN" target="NLD" id="318" weight="0.01856631564457292" />
+      <edge source="JPN" target="IDN" id="319" weight="0.014436643953472364" />
+      <edge source="JPN" target="MYS" id="320" weight="0.01412691857663982" />
+      <edge source="JPN" target="CHL" id="321" weight="0.013972055888223553" />
+      <edge source="JPN" target="ITA" id="322" weight="0.012320187211783329" />
+      <edge source="JPN" target="TUR" id="323" weight="0.012165324523367058" />
+      <edge source="JPN" target="PER" id="324" weight="0.011270562323628601" />
+      <edge source="JPN" target="AUT" id="325" weight="0.00922293344345791" />
+      <edge source="JPN" target="SWE" id="326" weight="0.007966824970748158" />
+      <edge source="JPN" target="PHL" id="327" weight="0.007433409043981001" />
+      <edge source="JPN" target="KOR" id="328" weight="0.006951614013352605" />
+      <edge source="JPN" target="LUX" id="329" weight="0.00681395829031592" />
+      <edge source="CHL" target="USA" id="330" weight="0.2677511540998021" />
+      <edge source="CHL" target="ARG" id="331" weight="0.11732562886662687" />
+      <edge source="CHL" target="AUS" id="332" weight="0.11076217693056559" />
+      <edge source="CHL" target="BRA" id="333" weight="0.07301447727915084" />
+      <edge source="CHL" target="ESP" id="334" weight="0.07235499167791981" />
+      <edge source="CHL" target="CAN" id="335" weight="0.059667744873284564" />
+      <edge source="CHL" target="PER" id="336" weight="0.056904186163363984" />
+      <edge source="CHL" target="DEU" id="337" weight="0.04091951135257356" />
+      <edge source="CHL" target="GBR" id="338" weight="0.032503218917815525" />
+      <edge source="CHL" target="FRA" id="339" weight="0.027509970794209082" />
+      <edge source="CHL" target="ITA" id="340" weight="0.020004396570674873" />
+      <edge source="CHL" target="NOR" id="341" weight="0.017240837860754324" />
+      <edge source="CHL" target="NLD" id="342" weight="0.013849197625851833" />
+      <edge source="DNK" target="GBR" id="343" weight="0.20463499420625722" />
+      <edge source="DNK" target="USA" id="344" weight="0.146234067207416" />
+      <edge source="DNK" target="DEU" id="345" weight="0.12294322132097334" />
+      <edge source="DNK" target="NOR" id="346" weight="0.07363847045191194" />
+      <edge source="DNK" target="TUR" id="347" weight="0.06888760139049825" />
+      <edge source="DNK" target="CAN" id="348" weight="0.05156431054461182" />
+      <edge source="DNK" target="ROU" id="349" weight="0.03371958285052145" />
+      <edge source="DNK" target="ISL" id="350" weight="0.03244495944380069" />
+      <edge source="DNK" target="FRO" id="351" weight="0.030069524913093854" />
+      <edge source="DNK" target="NLD" id="352" weight="0.02989571263035921" />
+      <edge source="DNK" target="ZAF" id="353" weight="0.02757821552723059" />
+      <edge source="DNK" target="AUS" id="354" weight="0.02636152954808806" />
+      <edge source="DNK" target="FRA" id="355" weight="0.019582850521436847" />
+      <edge source="IRL" target="GBR" id="356" weight="0.7293103448275863" />
+      <edge source="IRL" target="DEU" id="357" weight="0.046289655172413804" />
+      <edge source="IRL" target="USA" id="358" weight="0.03289655172413794" />
+      <edge source="IRL" target="ZAF" id="359" weight="0.03150344827586207" />
+      <edge source="IRL" target="CAN" id="360" weight="0.02780689655172414" />
+      <edge source="IRL" target="AUS" id="361" weight="0.02133793103448276" />
+      <edge source="IRL" target="ROU" id="362" weight="0.01931034482758621" />
+      <edge source="IRL" target="NLD" id="363" weight="0.013737931034482759" />
+      <edge source="IRL" target="FRA" id="364" weight="0.007848275862068965" />
+      <edge source="IRL" target="POL" id="365" weight="0.006179310344827587" />
+      <edge source="IRL" target="SWE" id="366" weight="0.005779310344827588" />
+      <edge source="IRL" target="HUN" id="367" weight="0.005282758620689655" />
+      <edge source="IRL" target="DNK" id="368" weight="0.005227586206896552" />
+      <edge source="FRA" target="GBR" id="369" weight="0.12445100549453916" />
+      <edge source="FRA" target="USA" id="370" weight="0.09699056066350997" />
+      <edge source="FRA" target="BEL" id="371" weight="0.07747483966603984" />
+      <edge source="FRA" target="CHE" id="372" weight="0.07392207187616766" />
+      <edge source="FRA" target="DEU" id="373" weight="0.07300325262016623" />
+      <edge source="FRA" target="LUX" id="374" weight="0.05441247634040416" />
+      <edge source="FRA" target="CAN" id="375" weight="0.046020593802257856" />
+      <edge source="FRA" target="ROU" id="376" weight="0.04492413615676282" />
+      <edge source="FRA" target="ESP" id="377" weight="0.03462110956613355" />
+      <edge source="FRA" target="TUR" id="378" weight="0.03460273318101351" />
+      <edge source="FRA" target="ITA" id="379" weight="0.02982487304980613" />
+      <edge source="FRA" target="NLD" id="380" weight="0.029053064874764938" />
+      <edge source="FRA" target="AUS" id="381" weight="0.02488775091422516" />
+      <edge source="FRA" target="CHL" id="382" weight="0.01935033353138993" />
+      <edge source="FRA" target="SWE" id="383" weight="0.014419336857515635" />
+      <edge source="FRA" target="NCL" id="384" weight="0.014327454931915494" />
+      <edge source="FRA" target="MAR" id="385" weight="0.01426620031484873" />
+      <edge source="FRA" target="GUF" id="386" weight="0.013610775912234382" />
+      <edge source="FRA" target="AUT" id="387" weight="0.00990487157969532" />
+      <edge source="FRA" target="PRT" id="388" weight="0.009451587413401285" />
+      <edge source="FRA" target="POL" id="389" weight="0.009445461951694607" />
+      <edge source="FRA" target="JPN" id="390" weight="0.0093964582580412" />
+      <edge source="FRA" target="BRA" id="391" weight="0.008820664857613644" />
+      <edge source="FRA" target="ZAF" id="392" weight="0.008747159317133527" />
+      <edge source="FRA" target="REU" id="393" weight="0.007865092831372163" />
+      <edge source="FRA" target="GAB" id="394" weight="0.007773210905772023" />
+      <edge source="FRA" target="ARE" id="395" weight="0.0075465688226250055" />
+      <edge source="FRA" target="IRL" id="396" weight="0.006676753260276994" />
+      <edge source="IDN" target="SAU" id="397" weight="0.6234683099326578" />
+      <edge source="IDN" target="MYS" id="398" weight="0.11163646079917168" />
+      <edge source="IDN" target="HKG" id="399" weight="0.08305465445907075" />
+      <edge source="IDN" target="ARE" id="400" weight="0.04520860209666712" />
+      <edge source="IDN" target="OMN" id="401" weight="0.028272858973877248" />
+      <edge source="IDN" target="AUS" id="402" weight="0.021446792166096785" />
+      <edge source="IDN" target="JPN" id="403" weight="0.018843701857441664" />
+      <edge source="IDN" target="USA" id="404" weight="0.017432563887392855" />
+      <edge source="IDN" target="KWT" id="405" weight="0.012222208305674196" />
+      <edge source="IDN" target="CHN" id="406" weight="0.004479736810243693" />
+      <edge source="IDN" target="BGD" id="407" weight="0.004206276641491631" />
+      <edge source="IDN" target="DEU" id="408" weight="0.003350408937763805" />
+      <edge source="IDN" target="JOR" id="409" weight="0.0028869878884282513" />
+      <edge source="IDN" target="GBR" id="410" weight="0.0028765504774071796" />
+      <edge source="IDN" target="BHR" id="411" weight="0.002469491447585409" />
+      <edge source="IDN" target="CAN" id="412" weight="0.002120881919481636" />
+      <edge source="CHE" target="DEU" id="413" weight="0.15629253243807276" />
+      <edge source="CHE" target="FRA" id="414" weight="0.13152164050449142" />
+      <edge source="CHE" target="ITA" id="415" weight="0.11802468015606568" />
+      <edge source="CHE" target="TUR" id="416" weight="0.08315942291988022" />
+      <edge source="CHE" target="USA" id="417" weight="0.07871336539333997" />
+      <edge source="CHE" target="GBR" id="418" weight="0.0688458397604573" />
+      <edge source="CHE" target="AUT" id="419" weight="0.06469467380455493" />
+      <edge source="CHE" target="CAN" id="420" weight="0.030736775247255228" />
+      <edge source="CHE" target="ESP" id="421" weight="0.02787859540876509" />
+      <edge source="CHE" target="LIE" id="422" weight="0.023795481353779156" />
+      <edge source="CHE" target="CHL" id="423" weight="0.0233644859813084" />
+      <edge source="CHE" target="LUX" id="424" weight="0.020710461845567553" />
+      <edge source="CHE" target="AUS" id="425" weight="0.020347518374013246" />
+      <edge source="CHE" target="NLD" id="426" weight="0.0203248344070411" />
+      <edge source="CHE" target="SWE" id="427" weight="0.01315670084384357" />
+      <edge source="CHE" target="HUN" id="428" weight="0.011387351420016331" />
+      <edge source="ROU" target="ITA" id="429" weight="0.23948307692307697" />
+      <edge source="ROU" target="DEU" id="430" weight="0.19791179487179492" />
+      <edge source="ROU" target="GBR" id="431" weight="0.0962625641025641" />
+      <edge source="ROU" target="BEL" id="432" weight="0.06743794871794873" />
+      <edge source="ROU" target="USA" id="433" weight="0.05829333333333334" />
+      <edge source="ROU" target="DNK" id="434" weight="0.05571282051282052" />
+      <edge source="ROU" target="AUT" id="435" weight="0.05202871794871796" />
+      <edge source="ROU" target="TUR" id="436" weight="0.03008410256410256" />
+      <edge source="ROU" target="NLD" id="437" weight="0.028295384615384625" />
+      <edge source="ROU" target="FRA" id="438" weight="0.028172307692307694" />
+      <edge source="ROU" target="SWE" id="439" weight="0.02742153846153847" />
+      <edge source="ROU" target="CAN" id="440" weight="0.026367179487179492" />
+      <edge source="HUN" target="DEU" id="441" weight="0.4906347887233906" />
+      <edge source="HUN" target="AUT" id="442" weight="0.10261458799463019" />
+      <edge source="HUN" target="USA" id="443" weight="0.08045771271495238" />
+      <edge source="HUN" target="GBR" id="444" weight="0.07037013360608578" />
+      <edge source="HUN" target="NLD" id="445" weight="0.03665537301029215" />
+      <edge source="HUN" target="CHE" id="446" weight="0.035057214089369036" />
+      <edge source="HUN" target="CAN" id="447" weight="0.0334974109825481" />
+      <edge source="HUN" target="ROU" id="448" weight="0.0326535830723007" />
+      <edge source="HUN" target="DNK" id="449" weight="0.022182445822412574" />
+      <edge source="HUN" target="ITA" id="450" weight="0.01058620469219459" />
+      <edge source="HUN" target="IRL" id="451" weight="0.010266572908009971" />
+      <edge source="SVK" target="DEU" id="452" weight="0.3188447052640799" />
+      <edge source="SVK" target="CZE" id="453" weight="0.20968730839975477" />
+      <edge source="SVK" target="GBR" id="454" weight="0.125733555224665" />
+      <edge source="SVK" target="AUT" id="455" weight="0.10736182885171236" />
+      <edge source="SVK" target="CHE" id="456" weight="0.056188140492248406" />
+      <edge source="SVK" target="DNK" id="457" weight="0.034509941315582014" />
+      <edge source="SVK" target="IRL" id="458" weight="0.025356923885434007" />
+      <edge source="SVK" target="CAN" id="459" weight="0.022444600157659627" />
+      <edge source="SVK" target="ITA" id="460" weight="0.012218621354121051" />
+      <edge source="BGR" target="DEU" id="461" weight="0.44095131940089327" />
+      <edge source="BGR" target="TUR" id="462" weight="0.4317575339022427" />
+      <edge source="BGR" target="NLD" id="463" weight="0.01709267163129391" />
+      <edge source="BGR" target="BEL" id="464" weight="0.01528489055561339" />
+      <edge source="BGR" target="USA" id="465" weight="0.014937045039646773" />
+      <edge source="BGR" target="ITA" id="466" weight="0.01301500813755386" />
+      <edge source="BGR" target="GBR" id="467" weight="0.011443355769792284" />
+      <edge source="BGR" target="DNK" id="468" weight="0.010547082287046183" />
+      <edge source="BGR" target="AUT" id="469" weight="0.0072082731374396025" />
+      <edge source="BGR" target="CZE" id="470" weight="0.004895227407179836" />
+      <edge source="BGR" target="NOR" id="471" weight="0.004085280548834209" />
+      <edge source="BGR" target="FRA" id="472" weight="0.00392532239185686" />
+      <edge source="BHR" target="GBR" id="473" weight="0.3339928769291651" />
+      <edge source="BHR" target="BGD" id="474" weight="0.15670755836960826" />
+      <edge source="BHR" target="AUS" id="475" weight="0.11476058567471314" />
+      <edge source="BHR" target="OMN" id="476" weight="0.08151958844479625" />
+      <edge source="BHR" target="CAN" id="477" weight="0.06727344677483181" />
+      <edge source="BHR" target="ARE" id="478" weight="0.05342303126236645" />
+      <edge source="BHR" target="EGY" id="479" weight="0.04709141274238227" />
+      <edge source="BGD" target="SAU" id="480" weight="0.37207596856588065" />
+      <edge source="BGD" target="QAT" id="481" weight="0.17150928773219332" />
+      <edge source="BGD" target="ARE" id="482" weight="0.12400643349417068" />
+      <edge source="BGD" target="OMN" id="483" weight="0.09558405626807336" />
+      <edge source="BGD" target="GBR" id="484" weight="0.04876288573881012" />
+      <edge source="BGD" target="KWT" id="485" weight="0.03435919231314116" />
+      <edge source="BGD" target="ITA" id="486" weight="0.030689100560847348" />
+      <edge source="BGD" target="MYS" id="487" weight="0.029834079185312962" />
+      <edge source="BGD" target="USA" id="488" weight="0.02964740785186297" />
+      <edge source="BGD" target="AUS" id="489" weight="0.01479703659258148" />
+      <edge source="BGD" target="DEU" id="490" weight="0.008266873338500128" />
+      <edge source="BGD" target="CAN" id="491" weight="0.006966840837687609" />
+      <edge source="BGD" target="BHR" id="492" weight="0.006870171754293857" />
+      <edge source="BGD" target="MDV" id="493" weight="0.004778452794653198" />
+      <edge source="BGD" target="SWE" id="494" weight="0.004640116002900071" />
+      <edge source="OMN" target="AUS" id="495" weight="0.3635863586358637" />
+      <edge source="OMN" target="GBR" id="496" weight="0.24147414741474146" />
+      <edge source="OMN" target="EGY" id="497" weight="0.08800880088008803" />
+      <edge source="OMN" target="NLD" id="498" weight="0.08470847084708473" />
+      <edge source="OMN" target="CAN" id="499" weight="0.05995599559955997" />
+      <edge source="OMN" target="LBY" id="500" weight="0.05665566556655665" />
+      <edge source="ARE" target="OMN" id="501" weight="0.18921595598349378" />
+      <edge source="ARE" target="SWE" id="502" weight="0.16434662998624486" />
+      <edge source="ARE" target="AUS" id="503" weight="0.15675378266850068" />
+      <edge source="ARE" target="CAN" id="504" weight="0.08220082530949105" />
+      <edge source="ARE" target="KWT" id="505" weight="0.07983493810178816" />
+      <edge source="ARE" target="GBR" id="506" weight="0.07812929848693259" />
+      <edge source="ARE" target="USA" id="507" weight="0.054580467675378296" />
+      <edge source="ARE" target="NLD" id="508" weight="0.04396148555708391" />
+      <edge source="ARE" target="MLI" id="509" weight="0.019202200825309493" />
+      <edge source="ARE" target="ROU" id="510" weight="0.015570839064649247" />
+      <edge source="EGY" target="SAU" id="511" weight="0.45937706583914734" />
+      <edge source="EGY" target="ARE" id="512" weight="0.16694165660494872" />
+      <edge source="EGY" target="QAT" id="513" weight="0.06356911444134246" />
+      <edge source="EGY" target="KWT" id="514" weight="0.06238629348164578" />
+      <edge source="EGY" target="OMN" id="515" weight="0.043690619929303905" />
+      <edge source="EGY" target="USA" id="516" weight="0.041070931013947994" />
+      <edge source="EGY" target="ITA" id="517" weight="0.03587526019329426" />
+      <edge source="EGY" target="JOR" id="518" weight="0.020127078131743855" />
+      <edge source="EGY" target="GBR" id="519" weight="0.012912689784032738" />
+      <edge source="EGY" target="CAN" id="520" weight="0.01256303370356813" />
+      <edge source="EGY" target="BHR" id="521" weight="0.011617869611062244" />
+      <edge source="EGY" target="AUS" id="522" weight="0.010112709452187263" />
+      <edge source="EGY" target="SDN" id="523" weight="0.008550183842611058" />
+      <edge source="EGY" target="AUT" id="524" weight="0.007340046001628084" />
+      <edge source="EGY" target="SWE" id="525" weight="0.007075072253151003" />
+      <edge source="EGY" target="DEU" id="526" weight="0.005212060949425526" />
+      <edge source="EGY" target="FRA" id="527" weight="0.005141037058081153" />
+      <edge source="LUX" target="DEU" id="528" weight="0.3034225926582728" />
+      <edge source="LUX" target="BEL" id="529" weight="0.2089022876396524" />
+      <edge source="LUX" target="FRA" id="530" weight="0.16687355914169177" />
+      <edge source="LUX" target="NLD" id="531" weight="0.05958503280723531" />
+      <edge source="LUX" target="GBR" id="532" weight="0.047171484305727956" />
+      <edge source="LUX" target="USA" id="533" weight="0.03759531831885086" />
+      <edge source="LUX" target="AUT" id="534" weight="0.024295087781521545" />
+      <edge source="LUX" target="ROU" id="535" weight="0.018974995566589825" />
+      <edge source="ESP" target="DEU" id="536" weight="0.40471407603534115" />
+      <edge source="ESP" target="FRA" id="537" weight="0.09647451578553544" />
+      <edge source="ESP" target="ROU" id="538" weight="0.09382680519181512" />
+      <edge source="ESP" target="GBR" id="539" weight="0.06760871442138891" />
+      <edge source="ESP" target="USA" id="540" weight="0.051359829625579174" />
+      <edge source="ESP" target="CHL" id="541" weight="0.0330676029585288" />
+      <edge source="ESP" target="BRA" id="542" weight="0.026649782715054537" />
+      <edge source="ESP" target="NLD" id="543" weight="0.02649437361498834" />
+      <edge source="ESP" target="BEL" id="544" weight="0.022211989524275475" />
+      <edge source="ESP" target="ITA" id="545" weight="0.019178634126687192" />
+      <edge source="ESP" target="SWE" id="546" weight="0.01747488991855412" />
+      <edge source="ESP" target="AUS" id="547" weight="0.010728983797162344" />
+      <edge source="ESP" target="BGR" id="548" weight="0.010694448441592078" />
+      <edge source="ESP" target="DNK" id="549" weight="0.010383630241459694" />
+      <edge source="ESP" target="ARG" id="550" weight="0.009894379370880939" />
+      <edge source="ESP" target="LUX" id="551" weight="0.009508734567012978" />
+      <edge source="ESP" target="AND" id="552" weight="0.007948887673756008" />
+      <edge source="BRA" target="USA" id="553" weight="0.45598555689288034" />
+      <edge source="BRA" target="JPN" id="554" weight="0.07544671789649107" />
+      <edge source="BRA" target="ITA" id="555" weight="0.0740903620035182" />
+      <edge source="BRA" target="AUS" id="556" weight="0.0729654661605407" />
+      <edge source="BRA" target="ESP" id="557" weight="0.04798166836404037" />
+      <edge source="BRA" target="GBR" id="558" weight="0.02624756966947505" />
+      <edge source="BRA" target="DEU" id="559" weight="0.02417368762151653" />
+      <edge source="BRA" target="CHL" id="560" weight="0.023715396722525695" />
+      <edge source="BRA" target="CHE" id="561" weight="0.018905656883621894" />
+      <edge source="BRA" target="CHN" id="562" weight="0.018572354411628557" />
+      <edge source="BRA" target="FRA" id="563" weight="0.016169799092676598" />
+      <edge source="BRA" target="NLD" id="564" weight="0.015183779279696327" />
+      <edge source="BRA" target="LUX" id="565" weight="0.014105175446717896" />
+      <edge source="BRA" target="SWE" id="566" weight="0.011105453198777893" />
+      <edge source="BRA" target="BOL" id="567" weight="0.010911026756781786" />
+      <edge source="BRA" target="PRT" id="568" weight="0.01055920748078882" />
+      <edge source="BRA" target="CAN" id="569" weight="0.009656513285806875" />
+      <edge source="CHN" target="USA" id="570" weight="0.3282980628393498" />
+      <edge source="CHN" target="AUS" id="571" weight="0.19581651181280063" />
+      <edge source="CHN" target="JPN" id="572" weight="0.10353698128625814" />
+      <edge source="CHN" target="CAN" id="573" weight="0.06816274332510755" />
+      <edge source="CHN" target="DEU" id="574" weight="0.04838402775421821" />
+      <edge source="CHN" target="ITA" id="575" weight="0.041092940345246194" />
+      <edge source="CHN" target="GBR" id="576" weight="0.03969755926313258" />
+      <edge source="CHN" target="MAC" id="577" weight="0.025832250413377965" />
+      <edge source="CHN" target="KOR" id="578" weight="0.016170785204240427" />
+      <edge source="CHN" target="ESP" id="579" weight="0.013248745115797454" />
+      <edge source="CHN" target="NLD" id="580" weight="0.01198021685933054" />
+      <edge source="CHN" target="FRA" id="581" weight="0.009878295039021994" />
+      <edge source="CHN" target="SWE" id="582" weight="0.008947549306660805" />
+      <edge source="CHN" target="ZAF" id="583" weight="0.006521120257953745" />
+      <edge source="CHN" target="IDN" id="584" weight="0.004733380436049212" />
+      <edge source="CHN" target="AUT" id="585" weight="0.0047156800417729305" />
+      <edge source="CHN" target="THA" id="586" weight="0.0046758541546512945" />
+      <edge source="CHN" target="LUX" id="587" weight="0.004423623536214269" />
+      <edge source="CHN" target="BRA" id="588" weight="0.0043100460062747885" />
+      <edge source="CHN" target="DNK" id="589" weight="0.004046015124986909" />
+      <edge source="CHN" target="CHL" id="590" weight="0.0039103121022020775" />
+      <edge source="CHN" target="NZL" id="591" weight="0.0038100098679698094" />
+      <edge source="CHN" target="HUN" id="592" weight="0.0037760841122736004" />
+      <edge source="CHN" target="CHE" id="593" weight="0.003444201719593303" />
+      <edge source="CHN" target="FIN" id="594" weight="0.003414701062466167" />
+      <edge source="CHN" target="BGD" id="595" weight="0.0031639454768854973" />
+      <edge source="CHN" target="BEL" id="596" weight="0.0029249901541556827" />
+      <edge source="CHN" target="ROU" id="597" weight="0.0027066852914148657" />
+      <edge source="BOL" target="CHL" id="598" weight="0.5254941577873931" />
+      <edge source="BOL" target="ARG" id="599" weight="0.14002249204201056" />
+      <edge source="BOL" target="USA" id="600" weight="0.1317690562872882" />
+      <edge source="BOL" target="BRA" id="601" weight="0.11146903532013039" />
+      <edge source="BOL" target="PER" id="602" weight="0.023235423060061367" />
+      <edge source="BOL" target="CHE" id="603" weight="0.010769494691496866" />
+      <edge source="BOL" target="ESP" id="604" weight="0.010578884165983645" />
+      <edge source="BOL" target="DEU" id="605" weight="0.008348741017478985" />
+      <edge source="BOL" target="GBR" id="606" weight="0.007853153651144616" />
+      <edge source="PRT" target="DEU" id="607" weight="0.28850426850660743" />
+      <edge source="PRT" target="FRA" id="608" weight="0.2468976987746722" />
+      <edge source="PRT" target="BRA" id="609" weight="0.13503293961719878" />
+      <edge source="PRT" target="GBR" id="610" weight="0.11395028521680374" />
+      <edge source="PRT" target="CAN" id="611" weight="0.06447588975948232" />
+      <edge source="PRT" target="ZAF" id="612" weight="0.033361919983367766" />
+      <edge source="PRT" target="BEL" id="613" weight="0.02464299172286542" />
+      <edge source="PRT" target="CHE" id="614" weight="0.021264569446068686" />
+      <edge source="PRT" target="NLD" id="615" weight="0.014650658142647387" />
+      <edge source="PRT" target="DNK" id="616" weight="0.008036746839226082" />
+      <edge source="PRT" target="ROU" id="617" weight="0.00744552294078665" />
+      <edge source="PRT" target="AUS" id="618" weight="0.006795826349094976" />
+      <edge source="PRT" target="SWE" id="619" weight="0.005411972608791694" />
+      <edge source="PRT" target="AND" id="620" weight="0.004664821528346262" />
+      <edge source="CZE" target="DEU" id="621" weight="0.5928500894072434" />
+      <edge source="CZE" target="AUT" id="622" weight="0.13245616376204328" />
+      <edge source="CZE" target="USA" id="623" weight="0.08089353865862446" />
+      <edge source="CZE" target="GBR" id="624" weight="0.0572072913608583" />
+      <edge source="CZE" target="CAN" id="625" weight="0.019989858282847144" />
+      <edge source="CZE" target="CHE" id="626" weight="0.013264298486749043" />
+      <edge source="CZE" target="DNK" id="627" weight="0.010782246657236648" />
+      <edge source="CZE" target="SVK" id="628" weight="0.010742213563212253" />
+      <edge source="CZE" target="SWE" id="629" weight="0.008820625050041367" />
+      <edge source="CZE" target="IRL" id="630" weight="0.00793989698150471" />
+      <edge source="PER" target="CHL" id="631" weight="0.4252587734294862" />
+      <edge source="PER" target="USA" id="632" weight="0.3021665475117341" />
+      <edge source="PER" target="ESP" id="633" weight="0.06981442914426035" />
+      <edge source="PER" target="ITA" id="634" weight="0.030796369401013324" />
+      <edge source="PER" target="ARG" id="635" weight="0.026607814491312057" />
+      <edge source="PER" target="JPN" id="636" weight="0.01821516272419259" />
+      <edge source="PER" target="BRA" id="637" weight="0.01758571384165863" />
+      <edge source="PER" target="CAN" id="638" weight="0.01637344191974138" />
+      <edge source="PER" target="PRI" id="639" weight="0.012239283827049204" />
+      <edge source="PER" target="DEU" id="640" weight="0.011788567343259455" />
+      <edge source="PER" target="AUS" id="641" weight="0.009348481551708058" />
+      <edge source="PER" target="BOL" id="642" weight="0.008042957943489476" />
+      <edge source="PER" target="GBR" id="643" weight="0.007405738087097072" />
+      <edge source="PER" target="CHN" id="644" weight="0.005657268968947188" />
+      <edge source="KOR" target="USA" id="645" weight="0.24789381490595153" />
+      <edge source="KOR" target="JPN" id="646" weight="0.18136130458355923" />
+      <edge source="KOR" target="AUS" id="647" weight="0.15279225924844644" />
+      <edge source="KOR" target="CHN" id="648" weight="0.10518413479584603" />
+      <edge source="KOR" target="CAN" id="649" weight="0.09150435834341246" />
+      <edge source="KOR" target="DEU" id="650" weight="0.024846728114443006" />
+      <edge source="KOR" target="GBR" id="651" weight="0.016390707761604867" />
+      <edge source="KOR" target="KAZ" id="652" weight="0.014962255494849228" />
+      <edge source="KOR" target="HKG" id="653" weight="0.014889268882679234" />
+      <edge source="KOR" target="IDN" id="654" weight="0.014774575634983527" />
+      <edge source="KOR" target="NLD" id="655" weight="0.013554656545856447" />
+      <edge source="KOR" target="BRA" id="656" weight="0.013471243274805025" />
+      <edge source="KOR" target="FRA" id="657" weight="0.013127163531717898" />
+      <edge source="KOR" target="CHL" id="658" weight="0.01113567168536514" />
+      <edge source="KOR" target="LUX" id="659" weight="0.010457938858072321" />
+      <edge source="KOR" target="SWE" id="660" weight="0.00827876715185386" />
+      <edge source="KOR" target="NZL" id="661" weight="0.008038953997581018" />
+      <edge source="MEX" target="CAN" id="662" weight="0.21562582246117984" />
+      <edge source="MEX" target="ESP" id="663" weight="0.17088393427830204" />
+      <edge source="MEX" target="CHL" id="664" weight="0.06512012633003722" />
+      <edge source="MEX" target="DEU" id="665" weight="0.0561341504680979" />
+      <edge source="MEX" target="AUS" id="666" weight="0.051509568748355085" />
+      <edge source="MEX" target="GBR" id="667" weight="0.04692258525397603" />
+      <edge source="MEX" target="NLD" id="668" weight="0.042523592886415766" />
+      <edge source="MEX" target="ITA" id="669" weight="0.03293604541865624" />
+      <edge source="MEX" target="BOL" id="670" weight="0.032860848967928714" />
+      <edge source="MEX" target="CHE" id="671" weight="0.0294394104598263" />
+      <edge source="MEX" target="FRA" id="672" weight="0.028762642403278565" />
+      <edge source="MEX" target="SWE" id="673" weight="0.025717186148813777" />
+      <edge source="MEX" target="PER" id="674" weight="0.023762078429898113" />
+      <edge source="LKA" target="QAT" id="675" weight="0.3479484964359836" />
+      <edge source="LKA" target="SAU" id="676" weight="0.3183384215073156" />
+      <edge source="LKA" target="GBR" id="677" weight="0.06630688056501102" />
+      <edge source="LKA" target="AUS" id="678" weight="0.0594714035443979" />
+      <edge source="LKA" target="ITA" id="679" weight="0.032463353100917934" />
+      <edge source="LKA" target="CAN" id="680" weight="0.0323325635103926" />
+      <edge source="LKA" target="ARE" id="681" weight="0.028171389432889445" />
+      <edge source="LKA" target="OMN" id="682" weight="0.01875109708373631" />
+      <edge source="LKA" target="JPN" id="683" weight="0.01733994623859463" />
+      <edge source="LKA" target="USA" id="684" weight="0.014548621030277788" />
+      <edge source="LKA" target="DEU" id="685" weight="0.01314091201646572" />
+      <edge source="LKA" target="FRA" id="686" weight="0.010026054663165175" />
+      <edge source="LKA" target="CHE" id="687" weight="0.008780111721844956" />
+      <edge source="LKA" target="KWT" id="688" weight="0.007403379189999413" />
+      <edge source="QAT" target="AUS" id="689" weight="0.1885205343889164" />
+      <edge source="QAT" target="GBR" id="690" weight="0.14893617021276592" />
+      <edge source="QAT" target="SWE" id="691" weight="0.10984661058881742" />
+      <edge source="QAT" target="ARE" id="692" weight="0.08955962394854035" />
+      <edge source="QAT" target="CAN" id="693" weight="0.08758040573973282" />
+      <edge source="QAT" target="NLD" id="694" weight="0.07768431469569521" />
+      <edge source="QAT" target="EGY" id="695" weight="0.05838693715982188" />
+      <edge source="KWT" target="ARE" id="696" weight="0.2704280155642024" />
+      <edge source="KWT" target="SWE" id="697" weight="0.15104350902016273" />
+      <edge source="KWT" target="USA" id="698" weight="0.14043155288291476" />
+      <edge source="KWT" target="GBR" id="699" weight="0.09409267775026531" />
+      <edge source="KWT" target="CAN" id="700" weight="0.0639075580709822" />
+      <edge source="KWT" target="AUS" id="701" weight="0.061136658412923005" />
+      <edge source="KWT" target="EGY" id="702" weight="0.052234406320009426" />
+      <edge source="KWT" target="LBY" id="703" weight="0.038851550524702266" />
+      <edge source="KWT" target="NLD" id="704" weight="0.028711236882443102" />
+      <edge source="KWT" target="BHR" id="705" weight="0.016743308572102347" />
+      <edge source="ARG" target="CHL" id="706" weight="0.24075402110439506" />
+      <edge source="ARG" target="USA" id="707" weight="0.23307038213297815" />
+      <edge source="ARG" target="ESP" id="708" weight="0.11862075021587366" />
+      <edge source="ARG" target="BRA" id="709" weight="0.06408886677301798" />
+      <edge source="ARG" target="BOL" id="710" weight="0.057341899980973846" />
+      <edge source="ARG" target="PER" id="711" weight="0.040423258741054055" />
+      <edge source="ARG" target="AUS" id="712" weight="0.030339397309994586" />
+      <edge source="ARG" target="ITA" id="713" weight="0.02546577487669589" />
+      <edge source="ARG" target="DEU" id="714" weight="0.02217278674608866" />
+      <edge source="ARG" target="PRY" id="715" weight="0.021645908645191506" />
+      <edge source="ARG" target="GBR" id="716" weight="0.021382469594742926" />
+      <edge source="ARG" target="CAN" id="717" weight="0.020226264873329722" />
+      <edge source="ARG" target="URY" id="718" weight="0.013786643640142255" />
+      <edge source="ARG" target="FRA" id="719" weight="0.011518140705723944" />
+      <edge source="COL" target="USA" id="720" weight="0.4968050155228019" />
+      <edge source="COL" target="CHL" id="721" weight="0.23623293245320545" />
+      <edge source="COL" target="ESP" id="722" weight="0.10203353728988956" />
+      <edge source="COL" target="AUS" id="723" weight="0.04031407300238116" />
+      <edge source="COL" target="CAN" id="724" weight="0.025042449086214332" />
+      <edge source="COL" target="GBR" id="725" weight="0.016120605640453724" />
+      <edge source="COL" target="ITA" id="726" weight="0.00959500055259165" />
+      <edge source="COL" target="DEU" id="727" weight="0.009077573821221527" />
+      <edge source="COL" target="FRA" id="728" weight="0.008324039746410664" />
+      <edge source="COL" target="NLD" id="729" weight="0.007374586812148977" />
+      <edge source="COL" target="PER" id="730" weight="0.007324351207161586" />
+      <edge source="COL" target="CHE" id="731" weight="0.005917754267514643" />
+      <edge source="COL" target="BRA" id="732" weight="0.005184314434698735" />
+      <edge source="ISL" target="NOR" id="733" weight="0.21082441787287604" />
+      <edge source="ISL" target="SWE" id="734" weight="0.21019509125236" />
+      <edge source="ISL" target="USA" id="735" weight="0.14254247954688481" />
+      <edge source="ISL" target="GBR" id="736" weight="0.09565764631843925" />
+      <edge source="ISL" target="DEU" id="737" weight="0.08999370673379482" />
+      <edge source="ISL" target="LUX" id="738" weight="0.05254877281308999" />
+      <edge source="ISL" target="NLD" id="739" weight="0.04531151667715544" />
+      <edge source="FRO" target="GBR" id="740" weight="0.7567567567567567" />
+      <edge source="ECU" target="USA" id="741" weight="0.6935829459616503" />
+      <edge source="ECU" target="CHL" id="742" weight="0.14851467170249855" />
+      <edge source="ECU" target="PER" id="743" weight="0.023895990703079604" />
+      <edge source="ECU" target="CAN" id="744" weight="0.01933832074375363" />
+      <edge source="ECU" target="GBR" id="745" weight="0.018030941313190003" />
+      <edge source="ECU" target="CHE" id="746" weight="0.017014090644973855" />
+      <edge source="ECU" target="ITA" id="747" weight="0.013781958163858223" />
+      <edge source="ECU" target="DEU" id="748" weight="0.012583527019174898" />
+      <edge source="ECU" target="BEL" id="749" weight="0.008897443346891343" />
+      <edge source="ECU" target="NLD" id="750" weight="0.007916908773968624" />
+      <edge source="EST" target="FIN" id="751" weight="0.6054826310827471" />
+      <edge source="EST" target="DEU" id="752" weight="0.06947566901153092" />
+      <edge source="EST" target="GBR" id="753" weight="0.06534193922692001" />
+      <edge source="EST" target="USA" id="754" weight="0.0641090724490536" />
+      <edge source="EST" target="AUS" id="755" weight="0.02748567698890419" />
+      <edge source="EST" target="NOR" id="756" weight="0.02538255130901443" />
+      <edge source="EST" target="BEL" id="757" weight="0.01972586844586265" />
+      <edge source="EST" target="IRL" id="758" weight="0.01943578214518819" />
+      <edge source="FIN" target="GBR" id="759" weight="0.17588832487309644" />
+      <edge source="FIN" target="USA" id="760" weight="0.14780033840947548" />
+      <edge source="FIN" target="DEU" id="761" weight="0.1126057529610829" />
+      <edge source="FIN" target="NLD" id="762" weight="0.062436548223350284" />
+      <edge source="FIN" target="EST" id="763" weight="0.06201353637901863" />
+      <edge source="FIN" target="CAN" id="764" weight="0.057275803722504216" />
+      <edge source="FIN" target="TUR" id="765" weight="0.049915397631133694" />
+      <edge source="FIN" target="NOR" id="766" weight="0.04940778341793569" />
+      <edge source="FIN" target="AUS" id="767" weight="0.03350253807106599" />
+      <edge source="FIN" target="ESP" id="768" weight="0.03299492385786802" />
+      <edge source="NCL" target="AUS" id="769" weight="0.5674740484429064" />
+      <edge source="MAR" target="FRA" id="770" weight="0.3617514033680834" />
+      <edge source="MAR" target="ITA" id="771" weight="0.16986046511627906" />
+      <edge source="MAR" target="BEL" id="772" weight="0.1164009623095429" />
+      <edge source="MAR" target="ESP" id="773" weight="0.07642020850040096" />
+      <edge source="MAR" target="DEU" id="774" weight="0.06006736166800322" />
+      <edge source="MAR" target="NLD" id="775" weight="0.055095429029671204" />
+      <edge source="MAR" target="USA" id="776" weight="0.03779951884522855" />
+      <edge source="MAR" target="CAN" id="777" weight="0.031801122694466714" />
+      <edge source="MAR" target="GBR" id="778" weight="0.0185084202085004" />
+      <edge source="MAR" target="LUX" id="779" weight="0.01338251804330393" />
+      <edge source="MAR" target="SWE" id="780" weight="0.013247794707297514" />
+      <edge source="MAR" target="CHE" id="781" weight="0.008301523656776263" />
+      <edge source="MAR" target="NOR" id="782" weight="0.0049462710505212525" />
+      <edge source="MAR" target="ROU" id="783" weight="0.003990376904570969" />
+      <edge source="GUF" target="BRA" id="784" weight="0.6973684210526315" />
+      <edge source="POL" target="DEU" id="785" weight="0.422393250325349" />
+      <edge source="POL" target="GBR" id="786" weight="0.23993396292779" />
+      <edge source="POL" target="NLD" id="787" weight="0.08208469628222714" />
+      <edge source="POL" target="NOR" id="788" weight="0.03183584819387288" />
+      <edge source="POL" target="IRL" id="789" weight="0.027432643944989617" />
+      <edge source="POL" target="AUT" id="790" weight="0.026181808589216" />
+      <edge source="POL" target="SWE" id="791" weight="0.025229942668214274" />
+      <edge source="POL" target="CAN" id="792" weight="0.022917326158066895" />
+      <edge source="POL" target="DNK" id="793" weight="0.021745629770321125" />
+      <edge source="POL" target="USA" id="794" weight="0.01671810699588477" />
+      <edge source="POL" target="BEL" id="795" weight="0.01564533431817382" />
+      <edge source="POL" target="FRA" id="796" weight="0.012937022967887167" />
+      <edge source="POL" target="CHE" id="797" weight="0.010910186064507046" />
+      <edge source="REU" target="ZAF" id="798" weight="0.3583815028901734" />
+      <edge source="GAB" target="MLI" id="799" weight="0.41689623507805335" />
+      <edge source="GAB" target="FRA" id="800" weight="0.3682277318640955" />
+      <edge source="GAB" target="BEL" id="801" weight="0.03703703703703704" />
+      <edge source="GAB" target="COD" id="802" weight="0.029690847872666057" />
+      <edge source="GAB" target="ITA" id="803" weight="0.026629935720844808" />
+      <edge source="GAB" target="CAN" id="804" weight="0.02326293235384145" />
+      <edge source="GEO" target="CHL" id="805" weight="0.21212685409296844" />
+      <edge source="GEO" target="TUR" id="806" weight="0.14280394712344074" />
+      <edge source="GEO" target="USA" id="807" weight="0.13448768075467019" />
+      <edge source="GEO" target="DEU" id="808" weight="0.11605535902687275" />
+      <edge source="GEO" target="ITA" id="809" weight="0.10786321603674054" />
+      <edge source="GEO" target="SWE" id="810" weight="0.04803574753304785" />
+      <edge source="GEO" target="UKR" id="811" weight="0.03990566623223484" />
+      <edge source="GEO" target="AUT" id="812" weight="0.0371128902128716" />
+      <edge source="UKR" target="USA" id="813" weight="0.17138271577322697" />
+      <edge source="UKR" target="ITA" id="814" weight="0.13101855476395524" />
+      <edge source="UKR" target="DEU" id="815" weight="0.1193645077227634" />
+      <edge source="UKR" target="KAZ" id="816" weight="0.08501750343917415" />
+      <edge source="UKR" target="HUN" id="817" weight="0.07615953294337385" />
+      <edge source="UKR" target="ESP" id="818" weight="0.06991309794096923" />
+      <edge source="UKR" target="POL" id="819" weight="0.06820749124828039" />
+      <edge source="UKR" target="CZE" id="820" weight="0.05409289684714408" />
+      <edge source="UKR" target="ROU" id="821" weight="0.03604142667009653" />
+      <edge source="UKR" target="CAN" id="822" weight="0.02906241961279932" />
+      <edge source="UKR" target="DNK" id="823" weight="0.01911957141738712" />
+      <edge source="UKR" target="SWE" id="824" weight="0.018621869792307434" />
+      <edge source="UKR" target="BGR" id="825" weight="0.017201462907248548" />
+      <edge source="IND" target="SAU" id="826" weight="0.2508293897997245" />
+      <edge source="IND" target="USA" id="827" weight="0.1559424925809555" />
+      <edge source="IND" target="OMN" id="828" weight="0.14301301839372307" />
+      <edge source="IND" target="ARE" id="829" weight="0.1352907869608393" />
+      <edge source="IND" target="AUS" id="830" weight="0.06880134744648908" />
+      <edge source="IND" target="GBR" id="831" weight="0.06286439082373337" />
+      <edge source="IND" target="KWT" id="832" weight="0.03585350420417302" />
+      <edge source="IND" target="QAT" id="833" weight="0.030124217723212412" />
+      <edge source="IND" target="CAN" id="834" weight="0.027298297506409375" />
+      <edge source="IND" target="DEU" id="835" weight="0.01843560131692701" />
+      <edge source="IND" target="ITA" id="836" weight="0.012763682278451241" />
+      <edge source="IND" target="BHR" id="837" weight="0.009128307448187163" />
+      <edge source="IND" target="SWE" id="838" weight="0.008356141672341263" />
+      <edge source="IND" target="NLD" id="839" weight="0.0058055851794654376" />
+      <edge source="IND" target="MYS" id="840" weight="0.0036577481328331656" />
+      <edge source="IND" target="HKG" id="841" weight="0.00305309528904299" />
+      <edge source="IND" target="ZAF" id="842" weight="0.0026171027261582343" />
+      <edge source="IND" target="DNK" id="843" weight="0.0024409846777297866" />
+      <edge source="IND" target="JPN" id="844" weight="0.0021908626284959003" />
+      <edge source="IND" target="ESP" id="845" weight="0.00195622978873292" />
+      <edge source="IND" target="BEL" id="846" weight="0.0017422492282644798" />
+      <edge source="IND" target="FRA" id="847" weight="0.0016779976926814628" />
+      <edge source="IND" target="AUT" id="848" weight="0.0014055023408784902" />
+      <edge source="IND" target="CHE" id="849" weight="0.0011519382450955141" />
+      <edge source="IND" target="NZL" id="850" weight="0.0011169441051797635" />
+      <edge source="IND" target="IRL" id="851" weight="0.0011094863376567346" />
+      <edge source="MYS" target="AUS" id="852" weight="0.4715309866290048" />
+      <edge source="MYS" target="GBR" id="853" weight="0.1551403877742129" />
+      <edge source="MYS" target="USA" id="854" weight="0.08817795244162663" />
+      <edge source="MYS" target="HKG" id="855" weight="0.06929583518828389" />
+      <edge source="MYS" target="BRN" id="856" weight="0.05704548594587128" />
+      <edge source="MYS" target="BGD" id="857" weight="0.041187577716031376" />
+      <edge source="MYS" target="CAN" id="858" weight="0.025989776024316485" />
+      <edge source="MYS" target="EGY" id="859" weight="0.012818347891496905" />
+      <edge source="MYS" target="JPN" id="860" weight="0.012096836094011451" />
+      <edge source="MYS" target="DEU" id="861" weight="0.007691008734898144" />
+      <edge source="MYS" target="LBY" id="862" weight="0.007414685067776057" />
+      <edge source="MYS" target="NZL" id="863" weight="0.007261171919374893" />
+      <edge source="IRQ" target="DEU" id="864" weight="0.3046341350079327" />
+      <edge source="IRQ" target="TUR" id="865" weight="0.2916995811288941" />
+      <edge source="IRQ" target="AUS" id="866" weight="0.06073299124419986" />
+      <edge source="IRQ" target="USA" id="867" weight="0.05659738587255963" />
+      <edge source="IRQ" target="JOR" id="868" weight="0.04972683762272393" />
+      <edge source="IRQ" target="BEL" id="869" weight="0.0318800077003246" />
+      <edge source="IRQ" target="SWE" id="870" weight="0.0316709040579383" />
+      <edge source="IRQ" target="GBR" id="871" weight="0.030064457027541933" />
+      <edge source="IRQ" target="FIN" id="872" weight="0.020409179317990217" />
+      <edge source="IRQ" target="EGY" id="873" weight="0.01958936027561851" />
+      <edge source="IRQ" target="GRC" id="874" weight="0.01713986046480753" />
+      <edge source="IRQ" target="CAN" id="875" weight="0.016177319888743585" />
+      <edge source="JOR" target="SAU" id="876" weight="0.528924060188214" />
+      <edge source="JOR" target="ARE" id="877" weight="0.14440642141814705" />
+      <edge source="JOR" target="USA" id="878" weight="0.07573851341150421" />
+      <edge source="JOR" target="OMN" id="879" weight="0.04985909113783907" />
+      <edge source="JOR" target="KWT" id="880" weight="0.03731568617583413" />
+      <edge source="JOR" target="EGY" id="881" weight="0.01955110462483016" />
+      <edge source="JOR" target="AUS" id="882" weight="0.016871320014090883" />
+      <edge source="JOR" target="SWE" id="883" weight="0.01621710029691511" />
+      <edge source="JOR" target="LBY" id="884" weight="0.015663529766997128" />
+      <edge source="JOR" target="DEU" id="885" weight="0.013021488601479543" />
+      <edge source="JOR" target="CAN" id="886" weight="0.01188918524482915" />
+      <edge source="JOR" target="BHR" id="887" weight="0.009586835086306679" />
+      <edge source="JOR" target="GBR" id="888" weight="0.009523929344270545" />
+      <edge source="LBY" target="DEU" id="889" weight="0.34594715629198386" />
+      <edge source="LBY" target="GBR" id="890" weight="0.09659650694133452" />
+      <edge source="LBY" target="SWE" id="891" weight="0.09202866099417825" />
+      <edge source="LBY" target="EGY" id="892" weight="0.06654724585759068" />
+      <edge source="LBY" target="JOR" id="893" weight="0.06368114643976713" />
+      <edge source="LBY" target="TUR" id="894" weight="0.04858934169278997" />
+      <edge source="LBY" target="MLT" id="895" weight="0.047917599641737564" />
+      <edge source="LBY" target="NLD" id="896" weight="0.03837886251679354" />
+      <edge source="LBY" target="USA" id="897" weight="0.03457232422749665" />
+      <edge source="LBY" target="ITA" id="898" weight="0.03425884460367218" />
+      <edge source="LBY" target="CAN" id="899" weight="0.02006269592476489" />
+      <edge source="BRN" target="GBR" id="900" weight="0.38939566704675027" />
+      <edge source="BRN" target="AUS" id="901" weight="0.19783352337514254" />
+      <edge source="BRN" target="CAN" id="902" weight="0.18187001140250855" />
+      <edge source="BRN" target="MYS" id="903" weight="0.17274800456100342" />
+      <edge source="MLI" target="ITA" id="904" weight="0.24654525977504016" />
+      <edge source="MLI" target="NGA" id="905" weight="0.20594536689876808" />
+      <edge source="MLI" target="FRA" id="906" weight="0.12313872522763791" />
+      <edge source="MLI" target="GAB" id="907" weight="0.11676486341724694" />
+      <edge source="MLI" target="MRT" id="908" weight="0.10811462238885912" />
+      <edge source="MLI" target="DEU" id="909" weight="0.058810926620246395" />
+      <edge source="MLI" target="SEN" id="910" weight="0.030476700589180505" />
+      <edge source="MLI" target="GMB" id="911" weight="0.02940546331012319" />
+      <edge source="MLI" target="COD" id="912" weight="0.02793251205141939" />
+      <edge source="MLI" target="GHA" id="913" weight="0.017246920192822708" />
+      <edge source="NGA" target="NER" id="914" weight="0.2041364041364041" />
+      <edge source="NGA" target="GBR" id="915" weight="0.13263493263493262" />
+      <edge source="NGA" target="USA" id="916" weight="0.12374112374112375" />
+      <edge source="NGA" target="ITA" id="917" weight="0.11749331749331751" />
+      <edge source="NGA" target="DEU" id="918" weight="0.1164943164943165" />
+      <edge source="NGA" target="CMR" id="919" weight="0.0727164727164727" />
+      <edge source="NGA" target="GHA" id="920" weight="0.04756864756864756" />
+      <edge source="NGA" target="BEN" id="921" weight="0.028436428436428438" />
+      <edge source="NGA" target="AUS" id="922" weight="0.020385020385020384" />
+      <edge source="NGA" target="SDN" id="923" weight="0.018667818667818668" />
+      <edge source="NGA" target="ZAF" id="924" weight="0.016864216864216863" />
+      <edge source="NGA" target="CAN" id="925" weight="0.016302616302616296" />
+      <edge source="NGA" target="IRL" id="926" weight="0.011566811566811568" />
+      <edge source="NGA" target="GAB" id="927" weight="0.010206010206010203" />
+      <edge source="NGA" target="SWE" id="928" weight="0.008526608526608527" />
+      <edge source="NGA" target="AUT" id="929" weight="0.008267408267408266" />
+      <edge source="NGA" target="ARE" id="930" weight="0.005756405756405755" />
+      <edge source="NGA" target="FIN" id="931" weight="0.0043902043902043905" />
+      <edge source="MRT" target="MLI" id="932" weight="0.8126670364580707" />
+      <edge source="MRT" target="SEN" id="933" weight="0.05854470273813725" />
+      <edge source="MRT" target="FRA" id="934" weight="0.05451061469416569" />
+      <edge source="MRT" target="GMB" id="935" weight="0.019464474812162774" />
+      <edge source="MRT" target="ESP" id="936" weight="0.012556099036861479" />
+      <edge source="MRT" target="BEL" id="937" weight="0.009833089607180677" />
+      <edge source="SEN" target="ITA" id="938" weight="0.27330239671863316" />
+      <edge source="SEN" target="GMB" id="939" weight="0.24446877661330974" />
+      <edge source="SEN" target="FRA" id="940" weight="0.12468498531379808" />
+      <edge source="SEN" target="USA" id="941" weight="0.0587621878095834" />
+      <edge source="SEN" target="GNB" id="942" weight="0.0442324069729044" />
+      <edge source="SEN" target="GAB" id="943" weight="0.041903470810087426" />
+      <edge source="SEN" target="MLI" id="944" weight="0.041434207553400416" />
+      <edge source="SEN" target="ESP" id="945" weight="0.04046092079879033" />
+      <edge source="SEN" target="DEU" id="946" weight="0.03430835810000523" />
+      <edge source="SEN" target="BEL" id="947" weight="0.014964283852129936" />
+      <edge source="SEN" target="MRT" id="948" weight="0.011835862140883256" />
+      <edge source="SEN" target="LUX" id="949" weight="0.010949475989363367" />
+      <edge source="GMB" target="ITA" id="950" weight="0.3962610229276896" />
+      <edge source="GMB" target="DEU" id="951" weight="0.3742857142857143" />
+      <edge source="GMB" target="USA" id="952" weight="0.06525573192239857" />
+      <edge source="GMB" target="GBR" id="953" weight="0.045326278659611995" />
+      <edge source="GMB" target="ESP" id="954" weight="0.028888888888888884" />
+      <edge source="GMB" target="SWE" id="955" weight="0.023880070546737207" />
+      <edge source="GMB" target="SEN" id="956" weight="0.008606701940035273" />
+      <edge source="COD" target="UGA" id="957" weight="0.17615242411592824" />
+      <edge source="COD" target="TZA" id="958" weight="0.11895760033394957" />
+      <edge source="COD" target="BDI" id="959" weight="0.10772854672312006" />
+      <edge source="COD" target="ZMB" id="960" weight="0.10515236448208004" />
+      <edge source="COD" target="RWA" id="961" weight="0.08900948178185938" />
+      <edge source="COD" target="AGO" id="962" weight="0.08762597650426382" />
+      <edge source="COD" target="MWI" id="963" weight="0.04291251714473135" />
+      <edge source="COD" target="ZAF" id="964" weight="0.03431331623829686" />
+      <edge source="COD" target="BEL" id="965" weight="0.03263164171984019" />
+      <edge source="COD" target="COD" id="966" weight="0.03124813644224462" />
+      <edge source="COD" target="FRA" id="967" weight="0.027843043711610716" />
+      <edge source="COD" target="GBR" id="968" weight="0.014103405092730637" />
+      <edge source="COD" target="SSD" id="969" weight="0.013280457987953964" />
+      <edge source="COD" target="USA" id="970" weight="0.012171268411950625" />
+      <edge source="COD" target="SWE" id="971" weight="0.011765758244379509" />
+      <edge source="GHA" target="GBR" id="972" weight="0.2742072157220611" />
+      <edge source="GHA" target="USA" id="973" weight="0.20972525502721379" />
+      <edge source="GHA" target="NGA" id="974" weight="0.17314147899488316" />
+      <edge source="GHA" target="ITA" id="975" weight="0.08320568392921161" />
+      <edge source="GHA" target="DEU" id="976" weight="0.040136231789590325" />
+      <edge source="GHA" target="CAN" id="977" weight="0.026561939836391487" />
+      <edge source="GHA" target="ZAF" id="978" weight="0.02048365544438288" />
+      <edge source="GHA" target="BEL" id="979" weight="0.01914741061825767" />
+      <edge source="GHA" target="AUS" id="980" weight="0.019017045269367407" />
+      <edge source="GHA" target="BFA" id="981" weight="0.016426033960173385" />
+      <edge source="GHA" target="BEN" id="982" weight="0.015969755239057463" />
+      <edge source="GHA" target="NLD" id="983" weight="0.01350910927875371" />
+      <edge source="GHA" target="SWE" id="984" weight="0.011032167649838673" />
+      <edge source="NAM" target="ZAF" id="985" weight="0.9438804554079696" />
+      <edge source="NAM" target="GBR" id="986" weight="0.014753320683111953" />
+      <edge source="NAM" target="AUS" id="987" weight="0.0099146110056926" />
+      <edge source="NAM" target="ZMB" id="988" weight="0.0075426944971537" />
+      <edge source="NAM" target="EGY" id="989" weight="0.0037476280834914614" />
+      <edge source="NAM" target="CAN" id="990" weight="0.0034629981024667934" />
+      <edge source="ZMB" target="CZE" id="991" weight="0.6311365164761263" />
+      <edge source="ZMB" target="ZAF" id="992" weight="0.18750221215446147" />
+      <edge source="ZMB" target="GBR" id="993" weight="0.07505397656885994" />
+      <edge source="ZMB" target="USA" id="994" weight="0.03512901284819311" />
+      <edge source="ZMB" target="ZWE" id="995" weight="0.014529430502955439" />
+      <edge source="ZMB" target="AUS" id="996" weight="0.012370367748557676" />
+      <edge source="ZMB" target="MWI" id="997" weight="0.010777616536297031" />
+      <edge source="ZMB" target="BWA" id="998" weight="0.005185290057692988" />
+      <edge source="ZMB" target="CAN" id="999" weight="0.004672070222631226" />
+      <edge source="NIC" target="USA" id="1000" weight="0.62749929991599" />
+      <edge source="NIC" target="ESP" id="1001" weight="0.15704284514141698" />
+      <edge source="NIC" target="CRI" id="1002" weight="0.12066647997759732" />
+      <edge source="NIC" target="PAN" id="1003" weight="0.023438812657518904" />
+      <edge source="NIC" target="CAN" id="1004" weight="0.01965835900308037" />
+      <edge source="NIC" target="CHL" id="1005" weight="0.006636796415569869" />
+      <edge source="NIC" target="GTM" id="1006" weight="0.0063287594511341385" />
+      <edge source="NIC" target="HND" id="1007" weight="0.003472416690002801" />
+      <edge source="NIC" target="DEU" id="1008" weight="0.003472416690002801" />
+      <edge source="CRI" target="USA" id="1009" weight="0.6722796742015194" />
+      <edge source="CRI" target="NIC" id="1010" weight="0.04676489429852662" />
+      <edge source="CRI" target="PAN" id="1011" weight="0.04575821359934108" />
+      <edge source="CRI" target="CHL" id="1012" weight="0.04237210579298985" />
+      <edge source="CRI" target="PRI" id="1013" weight="0.028644641713187525" />
+      <edge source="CRI" target="CAN" id="1014" weight="0.025716116042829692" />
+      <edge source="CRI" target="DEU" id="1015" weight="0.014093529788597056" />
+      <edge source="CRI" target="NLD" id="1016" weight="0.013361398371007598" />
+      <edge source="CRI" target="ITA" id="1017" weight="0.012903816235014187" />
+      <edge source="CRI" target="CHE" id="1018" weight="0.011714102681431323" />
+      <edge source="PAN" target="USA" id="1019" weight="0.8332434860736746" />
+      <edge source="PAN" target="CHL" id="1020" weight="0.04609164420485176" />
+      <edge source="PAN" target="CAN" id="1021" weight="0.016711590296495955" />
+      <edge source="PAN" target="CRI" id="1022" weight="0.015094339622641506" />
+      <edge source="PAN" target="ESP" id="1023" weight="0.013746630727762802" />
+      <edge source="PAN" target="GBR" id="1024" weight="0.009074573225516618" />
+      <edge source="PAN" target="CHE" id="1025" weight="0.0073674752920035915" />
+      <edge source="PAN" target="BRA" id="1026" weight="0.007008086253369272" />
+      <edge source="GTM" target="USA" id="1027" weight="0.9182970930502109" />
+      <edge source="GTM" target="BLZ" id="1028" weight="0.0266122676062868" />
+      <edge source="GTM" target="MEX" id="1029" weight="0.015392461402939404" />
+      <edge source="GTM" target="CAN" id="1030" weight="0.014244981223051602" />
+      <edge source="GTM" target="ESP" id="1031" weight="0.003094719273030739" />
+      <edge source="GTM" target="CHL" id="1032" weight="0.0025847280819694925" />
+      <edge source="GTM" target="FRA" id="1033" weight="0.0021095090175715153" />
+      <edge source="GTM" target="ITA" id="1034" weight="0.002063146182020492" />
+      <edge source="GTM" target="DEU" id="1035" weight="0.001982011219806203" />
+      <edge source="GTM" target="GBR" id="1036" weight="0.0014256571931939356" />
+      <edge source="HND" target="USA" id="1037" weight="0.6969144399615201" />
+      <edge source="HND" target="ESP" id="1038" weight="0.23591827357962297" />
+      <edge source="HND" target="BLZ" id="1039" weight="0.012046462877080132" />
+      <edge source="HND" target="NIC" id="1040" weight="0.008873318305167487" />
+      <edge source="HND" target="CAN" id="1041" weight="0.00795439861013396" />
+      <edge source="HND" target="MEX" id="1042" weight="0.0066047353080534695" />
+      <edge source="HND" target="ITA" id="1043" weight="0.005685815613019942" />
+      <edge source="HND" target="CHL" id="1044" weight="0.003402874495671026" />
+      <edge source="HND" target="GTM" id="1045" weight="0.0031731445719126446" />
+      <edge source="LTU" target="GBR" id="1046" weight="0.3546772167326045" />
+      <edge source="LTU" target="SWE" id="1047" weight="0.09489434308964428" />
+      <edge source="LTU" target="NOR" id="1048" weight="0.09234432715204469" />
+      <edge source="LTU" target="DEU" id="1049" weight="0.07636922730767068" />
+      <edge source="LTU" target="DNK" id="1050" weight="0.07406296289351806" />
+      <edge source="LTU" target="IRL" id="1051" weight="0.0707816923855774" />
+      <edge source="LTU" target="USA" id="1052" weight="0.059081619260120365" />
+      <edge source="LTU" target="POL" id="1053" weight="0.055856599103744416" />
+      <edge source="LTU" target="NLD" id="1054" weight="0.025743910899443112" />
+      <edge source="PHL" target="SAU" id="1055" weight="0.2374925962071502" />
+      <edge source="PHL" target="USA" id="1056" weight="0.13679890560875513" />
+      <edge source="PHL" target="CAN" id="1057" weight="0.08825953429352534" />
+      <edge source="PHL" target="AUS" id="1058" weight="0.08449492958755868" />
+      <edge source="PHL" target="ARE" id="1059" weight="0.08086944241271955" />
+      <edge source="PHL" target="HKG" id="1060" weight="0.0734730270077716" />
+      <edge source="PHL" target="JPN" id="1061" weight="0.05466686620898403" />
+      <edge source="PHL" target="QAT" id="1062" weight="0.042083053166083136" />
+      <edge source="PHL" target="GBR" id="1063" weight="0.03730036107322851" />
+      <edge source="PHL" target="KWT" id="1064" weight="0.02251385378747477" />
+      <edge source="PHL" target="ITA" id="1065" weight="0.021175374510717316" />
+      <edge source="PHL" target="OMN" id="1066" weight="0.01765949508767566" />
+      <edge source="PHL" target="MYS" id="1067" weight="0.010707834214059722" />
+      <edge source="PHL" target="DEU" id="1068" weight="0.00968974682717176" />
+      <edge source="PHL" target="CHN" id="1069" weight="0.008317542088322768" />
+      <edge source="PHL" target="ESP" id="1070" weight="0.00772102297757889" />
+      <edge source="PHL" target="NOR" id="1071" weight="0.0070760235150784416" />
+      <edge source="PHL" target="SWE" id="1072" weight="0.005918818597062935" />
+      <edge source="PHL" target="BHR" id="1073" weight="0.005324407327699775" />
+      <edge source="PHL" target="AUT" id="1074" weight="0.005269603451801044" />
+      <edge source="PHL" target="NLD" id="1075" weight="0.0044496531547008" />
+      <edge source="SVN" target="DEU" id="1076" weight="0.29751763304937257" />
+      <edge source="SVN" target="AUT" id="1077" weight="0.296052028945681" />
+      <edge source="SVN" target="CHE" id="1078" weight="0.07236420261976735" />
+      <edge source="SVN" target="USA" id="1079" weight="0.0706237977466337" />
+      <edge source="SVN" target="CAN" id="1080" weight="0.053494549784739394" />
+      <edge source="SVN" target="GBR" id="1081" weight="0.02592287258404323" />
+      <edge source="SVN" target="NLD" id="1082" weight="0.023083264633140976" />
+      <edge source="SVN" target="AUS" id="1083" weight="0.02244206283777595" />
+      <edge source="MOZ" target="ZAF" id="1084" weight="0.8802863461231563" />
+      <edge source="MOZ" target="MWI" id="1085" weight="0.047431776212297376" />
+      <edge source="MOZ" target="ZWE" id="1086" weight="0.03631762533342451" />
+      <edge source="MOZ" target="PRT" id="1087" weight="0.013599161024097757" />
+      <edge source="MOZ" target="GBR" id="1088" weight="0.008914118961311354" />
+      <edge source="MOZ" target="ZMB" id="1089" weight="0.0037617126051569644" />
+      <edge source="MOZ" target="BRA" id="1090" weight="0.0024394136287987597" />
+      <edge source="MOZ" target="CAN" id="1091" weight="0.001003123361375191" />
+      <edge source="ZWE" target="ZAF" id="1092" weight="0.41717501591800693" />
+      <edge source="ZWE" target="GBR" id="1093" weight="0.2245568632283772" />
+      <edge source="ZWE" target="CZE" id="1094" weight="0.12208597777640849" />
+      <edge source="ZWE" target="AUS" id="1095" weight="0.050650070860804725" />
+      <edge source="ZWE" target="USA" id="1096" weight="0.04551522993817652" />
+      <edge source="ZWE" target="BWA" id="1097" weight="0.04387208084293548" />
+      <edge source="ZWE" target="MOZ" id="1098" weight="0.03858319469262842" />
+      <edge source="ZWE" target="ZMB" id="1099" weight="0.02365107728962557" />
+      <edge source="ZWE" target="NAM" id="1100" weight="0.008493026886027072" />
+      <edge source="AND" target="ESP" id="1101" weight="0.47651006711409405" />
+      <edge source="AND" target="MLI" id="1102" weight="0.26398210290827734" />
+      <edge source="AND" target="FRA" id="1103" weight="0.1319910514541387" />
+      <edge source="LIE" target="AUT" id="1104" weight="0.4503311258278146" />
+      <edge source="LIE" target="DEU" id="1105" weight="0.1655629139072848" />
+      <edge source="LIE" target="CHE" id="1106" weight="0.13245033112582785" />
+      <edge source="KAZ" target="DEU" id="1107" weight="0.8723473066423157" />
+      <edge source="KAZ" target="USA" id="1108" weight="0.02194446822475245" />
+      <edge source="KAZ" target="UKR" id="1109" weight="0.021135937752665774" />
+      <edge source="KAZ" target="TUR" id="1110" weight="0.01679840957300079" />
+      <edge source="KAZ" target="CZE" id="1111" weight="0.011747472153259329" />
+      <edge source="KAZ" target="CAN" id="1112" weight="0.008427741156103454" />
+      <edge source="KAZ" target="ITA" id="1113" weight="0.005593128442199583" />
+      <edge source="KAZ" target="BGR" id="1114" weight="0.005574104195797544" />
+      <edge source="KAZ" target="SWE" id="1115" weight="0.005364837485375111" />
+      <edge source="SDN" target="SAU" id="1116" weight="0.43473967219895554" />
+      <edge source="SDN" target="TCD" id="1117" weight="0.1621012357168709" />
+      <edge source="SDN" target="EGY" id="1118" weight="0.09145338917325888" />
+      <edge source="SDN" target="SSD" id="1119" weight="0.07381727935473863" />
+      <edge source="SDN" target="ARE" id="1120" weight="0.046791789462799244" />
+      <edge source="SDN" target="QAT" id="1121" weight="0.02777002223256294" />
+      <edge source="SDN" target="SWE" id="1122" weight="0.019275115040587352" />
+      <edge source="SDN" target="USA" id="1123" weight="0.01871671578511969" />
+      <edge source="SDN" target="OMN" id="1124" weight="0.018628819606018303" />
+      <edge source="SDN" target="ETH" id="1125" weight="0.016090171139031075" />
+      <edge source="SDN" target="KWT" id="1126" weight="0.013851403753683883" />
+      <edge source="SDN" target="GBR" id="1127" weight="0.012662220154076831" />
+      <edge source="ALB" target="DEU" id="1128" weight="0.40480755050877465" />
+      <edge source="ALB" target="ITA" id="1129" weight="0.32471952174061003" />
+      <edge source="ALB" target="USA" id="1130" weight="0.0832643245266752" />
+      <edge source="ALB" target="SWE" id="1131" weight="0.05180765260399533" />
+      <edge source="ALB" target="BEL" id="1132" weight="0.018853584109446077" />
+      <edge source="ALB" target="GBR" id="1133" weight="0.015223531814005195" />
+      <edge source="ALB" target="TUR" id="1134" weight="0.013272378705205722" />
+      <edge source="ALB" target="CAN" id="1135" weight="0.012398897371615262" />
+      <edge source="ALB" target="CHE" id="1136" weight="0.011230474289020229" />
+      <edge source="ALB" target="LUX" id="1137" weight="0.008734813335904618" />
+      <edge source="PRY" target="ARG" id="1138" weight="0.4026246364066834" />
+      <edge source="PRY" target="BRA" id="1139" weight="0.19999323547317868" />
+      <edge source="PRY" target="ESP" id="1140" weight="0.19011702631400937" />
+      <edge source="PRY" target="USA" id="1141" weight="0.08580802272881013" />
+      <edge source="PRY" target="CHL" id="1142" weight="0.041263613610227956" />
+      <edge source="PRY" target="CAN" id="1143" weight="0.017553947101400257" />
+      <edge source="PRY" target="DEU" id="1144" weight="0.014036393154298856" />
+      <edge source="URY" target="USA" id="1145" weight="0.24103366359580514" />
+      <edge source="URY" target="BRA" id="1146" weight="0.20991946230951972" />
+      <edge source="URY" target="ARG" id="1147" weight="0.13482820557390346" />
+      <edge source="URY" target="CHL" id="1148" weight="0.132104988701547" />
+      <edge source="URY" target="ESP" id="1149" weight="0.11002954980010428" />
+      <edge source="URY" target="AUS" id="1150" weight="0.03858856248913609" />
+      <edge source="URY" target="CAN" id="1151" weight="0.026942464800973405" />
+      <edge source="URY" target="DEU" id="1152" weight="0.01610753809606582" />
+      <edge source="URY" target="PER" id="1153" weight="0.015122544759256036" />
+      <edge source="URY" target="ITA" id="1154" weight="0.014485196129555592" />
+      <edge source="LVA" target="DEU" id="1155" weight="0.2548054011119936" />
+      <edge source="LVA" target="GBR" id="1156" weight="0.21930103256552821" />
+      <edge source="LVA" target="IRL" id="1157" weight="0.08598093725178714" />
+      <edge source="LVA" target="USA" id="1158" weight="0.07978554408260523" />
+      <edge source="LVA" target="SWE" id="1159" weight="0.079428117553614" />
+      <edge source="LVA" target="NOR" id="1160" weight="0.05206513105639395" />
+      <edge source="LVA" target="NLD" id="1161" weight="0.034392374900714846" />
+      <edge source="LVA" target="DNK" id="1162" weight="0.031771247021445584" />
+      <edge source="LVA" target="BEL" id="1163" weight="0.021604447974582996" />
+      <edge source="MNE" target="AUT" id="1164" weight="0.5493311036789298" />
+      <edge source="MNE" target="SRB" id="1165" weight="0.15816610925306576" />
+      <edge source="MNE" target="SVN" id="1166" weight="0.07232441471571907" />
+      <edge source="MNE" target="SWE" id="1167" weight="0.06284838350055744" />
+      <edge source="MNE" target="ITA" id="1168" weight="0.023411371237458196" />
+      <edge source="MNE" target="GBR" id="1169" weight="0.020763656633221852" />
+      <edge source="SRB" target="DEU" id="1170" weight="0.5178554507181438" />
+      <edge source="SRB" target="AUT" id="1171" weight="0.23843592208038328" />
+      <edge source="SRB" target="SWE" id="1172" weight="0.03520325973656779" />
+      <edge source="SRB" target="FRA" id="1173" weight="0.03489190616073965" />
+      <edge source="SRB" target="NLD" id="1174" weight="0.025943875133678972" />
+      <edge source="SRB" target="USA" id="1175" weight="0.020725318460559614" />
+      <edge source="SRB" target="CHE" id="1176" weight="0.01920239336140027" />
+      <edge source="SRB" target="CAN" id="1177" weight="0.016048246267141367" />
+      <edge source="SRB" target="HUN" id="1178" weight="0.014322264488094106" />
+      <edge source="SMR" target="FRA" id="1179" weight="0.5652173913043479" />
+      <edge source="MKD" target="TUR" id="1180" weight="0.517279923584225" />
+      <edge source="MKD" target="DEU" id="1181" weight="0.2233738784054304" />
+      <edge source="MKD" target="CHE" id="1182" weight="0.0728083813472345" />
+      <edge source="MKD" target="AUT" id="1183" weight="0.04019957524210185" />
+      <edge source="MKD" target="SWE" id="1184" weight="0.026156144255098608" />
+      <edge source="MKD" target="USA" id="1185" weight="0.022741822394293197" />
+      <edge source="MKD" target="AUS" id="1186" weight="0.022467457244764205" />
+      <edge source="MKD" target="SVN" id="1187" weight="0.008840654818156874" />
+      <edge source="MKD" target="BGR" id="1188" weight="0.00866790639067565" />
+      <edge source="DZA" target="FRA" id="1189" weight="0.8039895603736871" />
+      <edge source="DZA" target="CAN" id="1190" weight="0.04241328746783728" />
+      <edge source="DZA" target="GBR" id="1191" weight="0.02767607647118497" />
+      <edge source="DZA" target="BEL" id="1192" weight="0.01814023406158642" />
+      <edge source="DZA" target="DEU" id="1193" weight="0.017540785554213203" />
+      <edge source="DZA" target="USA" id="1194" weight="0.014460542454787752" />
+      <edge source="DZA" target="ESP" id="1195" weight="0.01016295777115823" />
+      <edge source="DZA" target="LUX" id="1196" weight="0.009720288104174928" />
+      <edge source="DZA" target="ITA" id="1197" weight="0.008180166554462204" />
+      <edge source="DZA" target="MAR" id="1198" weight="0.008143277415546928" />
+      <edge source="DZA" target="CHE" id="1199" weight="0.00574548338605406" />
+      <edge source="DZA" target="SWE" id="1200" weight="0.004177694982154878" />
+      <edge source="DZA" target="NLD" id="1201" weight="0.0026929071408150662" />
+      <edge source="PYF" target="AUS" id="1202" weight="0.33774834437086093" />
+      <edge source="BFA" target="GHA" id="1203" weight="0.3773246580255136" />
+      <edge source="BFA" target="MLI" id="1204" weight="0.3135918848301655" />
+      <edge source="BFA" target="NER" id="1205" weight="0.08048568061888417" />
+      <edge source="BFA" target="ITA" id="1206" weight="0.05927557764229726" />
+      <edge source="BFA" target="BEN" id="1207" weight="0.039961063579076805" />
+      <edge source="BFA" target="DEU" id="1208" weight="0.03565756442440699" />
+      <edge source="BFA" target="GAB" id="1209" weight="0.02828013730211589" />
+      <edge source="BEN" target="NGA" id="1210" weight="0.5789383090057836" />
+      <edge source="BEN" target="GAB" id="1211" weight="0.14207518589920132" />
+      <edge source="BEN" target="GHA" id="1212" weight="0.07418755163866701" />
+      <edge source="BEN" target="NER" id="1213" weight="0.05012393280088132" />
+      <edge source="BEN" target="FRA" id="1214" weight="0.04275681630404847" />
+      <edge source="BEN" target="DEU" id="1215" weight="0.02571605618286973" />
+      <edge source="BEN" target="COD" id="1216" weight="0.016076838336546405" />
+      <edge source="BEN" target="TGO" id="1217" weight="0.01562930322225282" />
+      <edge source="GLP" target="GUF" id="1218" weight="0.4602150537634408" />
+      <edge source="GLP" target="MLI" id="1219" weight="0.2301075268817204" />
+      <edge source="NER" target="NGA" id="1220" weight="0.3650782891615265" />
+      <edge source="NER" target="BEN" id="1221" weight="0.3200027113129533" />
+      <edge source="NER" target="MLI" id="1222" weight="0.08886328204432996" />
+      <edge source="NER" target="GHA" id="1223" weight="0.05137938046499017" />
+      <edge source="NER" target="TGO" id="1224" weight="0.02887548295261981" />
+      <edge source="NER" target="BFA" id="1225" weight="0.026977563885311463" />
+      <edge source="NER" target="DEU" id="1226" weight="0.023113942926862335" />
+      <edge source="NER" target="FRA" id="1227" weight="0.022639463160035244" />
+      <edge source="TGO" target="GHA" id="1228" weight="0.33665013217690914" />
+      <edge source="TGO" target="NGA" id="1229" weight="0.20958208334570944" />
+      <edge source="TGO" target="BEN" id="1230" weight="0.20373065613211752" />
+      <edge source="TGO" target="GAB" id="1231" weight="0.05402916802803932" />
+      <edge source="TGO" target="FRA" id="1232" weight="0.0429500698012891" />
+      <edge source="TGO" target="DEU" id="1233" weight="0.0345739151097514" />
+      <edge source="TGO" target="NER" id="1234" weight="0.023405708854367772" />
+      <edge source="TGO" target="BEL" id="1235" weight="0.02055425193809962" />
+      <edge source="PRI" target="USA" id="1236" weight="0.9936823770794279" />
+      <edge source="PRI" target="GUM" id="1237" weight="0.0014391781185882767" />
+      <edge source="PRI" target="CHL" id="1238" weight="0.0013579937118986818" />
+      <edge source="PRI" target="DOM" id="1239" weight="0.0011292012930461865" />
+      <edge source="PRI" target="HTI" id="1240" weight="0.00042806323527241045" />
+      <edge source="PRI" target="VGB" id="1241" weight="0.00033211802736652534" />
+      <edge source="GNB" target="GMB" id="1242" weight="0.2684268426842685" />
+      <edge source="GNB" target="SEN" id="1243" weight="0.1795012834616795" />
+      <edge source="GNB" target="ITA" id="1244" weight="0.15383204987165386" />
+      <edge source="GNB" target="PRT" id="1245" weight="0.08855885588558858" />
+      <edge source="GNB" target="SLE" id="1246" weight="0.05042170883755044" />
+      <edge source="GNB" target="CPV" id="1247" weight="0.045471213788045486" />
+      <edge source="GNB" target="GBR" id="1248" weight="0.04272093876054271" />
+      <edge source="ESH" target="DZA" id="1249" weight="0.8462662769067234" />
+      <edge source="TUN" target="FRA" id="1250" weight="0.4274920921825576" />
+      <edge source="TUN" target="USA" id="1251" weight="0.17456845910528695" />
+      <edge source="TUN" target="ITA" id="1252" weight="0.13863533664708538" />
+      <edge source="TUN" target="DEU" id="1253" weight="0.0610573881608676" />
+      <edge source="TUN" target="BEL" id="1254" weight="0.030474469046543152" />
+      <edge source="TUN" target="CAN" id="1255" weight="0.022413014008133756" />
+      <edge source="TUN" target="CHE" id="1256" weight="0.01800271125169453" />
+      <edge source="TUN" target="SWE" id="1257" weight="0.01599638499774062" />
+      <edge source="TUN" target="LUX" id="1258" weight="0.015725259828287392" />
+      <edge source="TUN" target="GBR" id="1259" weight="0.014026208766380477" />
+      <edge source="TUN" target="ROU" id="1260" weight="0.013050158156348846" />
+      <edge source="TUN" target="AUT" id="1261" weight="0.012037957523723452" />
+      <edge source="AGO" target="ZAF" id="1262" weight="0.32121782262892323" />
+      <edge source="AGO" target="PRT" id="1263" weight="0.11575301462413408" />
+      <edge source="AGO" target="NAM" id="1264" weight="0.09535619601470963" />
+      <edge source="AGO" target="GBR" id="1265" weight="0.07393312238091165" />
+      <edge source="AGO" target="MOZ" id="1266" weight="0.06448302403147181" />
+      <edge source="AGO" target="FRA" id="1267" weight="0.055375010690156504" />
+      <edge source="AGO" target="COD" id="1268" weight="0.054220473787736256" />
+      <edge source="AGO" target="USA" id="1269" weight="0.04806294364149491" />
+      <edge source="AGO" target="ZMB" id="1270" weight="0.044642093560249715" />
+      <edge source="AGO" target="BRA" id="1271" weight="0.04152056786111349" />
+      <edge source="BWA" target="ZAF" id="1272" weight="0.8689821938887669" />
+      <edge source="BWA" target="GBR" id="1273" weight="0.049131677291712486" />
+      <edge source="BWA" target="ZMB" id="1274" weight="0.025610024181138717" />
+      <edge source="BWA" target="AUS" id="1275" weight="0.02110353923939328" />
+      <edge source="BWA" target="ZWE" id="1276" weight="0.010991426687184001" />
+      <edge source="CPV" target="LUX" id="1277" weight="0.40489801679723336" />
+      <edge source="CPV" target="USA" id="1278" weight="0.22824475968663985" />
+      <edge source="CPV" target="FRA" id="1279" weight="0.0957018843955113" />
+      <edge source="CPV" target="PRT" id="1280" weight="0.07135295363116662" />
+      <edge source="CPV" target="NLD" id="1281" weight="0.042628272990331006" />
+      <edge source="CPV" target="AGO" id="1282" weight="0.03691156750652834" />
+      <edge source="UGA" target="GBR" id="1283" weight="0.3581402149279918" />
+      <edge source="UGA" target="RWA" id="1284" weight="0.16554572702682943" />
+      <edge source="UGA" target="SSD" id="1285" weight="0.13509759485342496" />
+      <edge source="UGA" target="USA" id="1286" weight="0.13345273777322905" />
+      <edge source="UGA" target="CAN" id="1287" weight="0.0343592367863148" />
+      <edge source="UGA" target="ZAF" id="1288" weight="0.033408874917757146" />
+      <edge source="UGA" target="SWE" id="1289" weight="0.03128883690328241" />
+      <edge source="UGA" target="AUS" id="1290" weight="0.021967980115505516" />
+      <edge source="UGA" target="NLD" id="1291" weight="0.0195189706849916" />
+      <edge source="TZA" target="GBR" id="1292" weight="0.26133646167035157" />
+      <edge source="TZA" target="USA" id="1293" weight="0.18111266525289896" />
+      <edge source="TZA" target="BDI" id="1294" weight="0.13608266028967195" />
+      <edge source="TZA" target="RWA" id="1295" weight="0.09479763569913818" />
+      <edge source="TZA" target="ZAF" id="1296" weight="0.08153228353562243" />
+      <edge source="TZA" target="CAN" id="1297" weight="0.0661462798357623" />
+      <edge source="TZA" target="ZMB" id="1298" weight="0.06154401479944049" />
+      <edge source="TZA" target="AUS" id="1299" weight="0.02129675585435184" />
+      <edge source="TZA" target="DEU" id="1300" weight="0.015386003699860122" />
+      <edge source="TZA" target="SWE" id="1301" weight="0.014393358299869149" />
+      <edge source="BDI" target="TZA" id="1302" weight="0.7384811185027605" />
+      <edge source="BDI" target="COD" id="1303" weight="0.1276637605597433" />
+      <edge source="BDI" target="UGA" id="1304" weight="0.062190278273059306" />
+      <edge source="BDI" target="RWA" id="1305" weight="0.019477884485323966" />
+      <edge source="BDI" target="MOZ" id="1306" weight="0.009222483184339" />
+      <edge source="BDI" target="ZMB" id="1307" weight="0.00861994761629552" />
+      <edge source="BDI" target="ZAF" id="1308" weight="0.007599326143895333" />
+      <edge source="BDI" target="BEL" id="1309" weight="0.006873824133393997" />
+      <edge source="RWA" target="BDI" id="1310" weight="0.4735259957641594" />
+      <edge source="RWA" target="ZMB" id="1311" weight="0.1296030607364897" />
+      <edge source="RWA" target="BEL" id="1312" weight="0.06422081027532965" />
+      <edge source="RWA" target="ZAF" id="1313" weight="0.06087312973970076" />
+      <edge source="RWA" target="COD" id="1314" weight="0.05274304843888775" />
+      <edge source="RWA" target="GBR" id="1315" weight="0.039215686274509796" />
+      <edge source="RWA" target="MWI" id="1316" weight="0.036346245815399324" />
+      <edge source="RWA" target="CAN" id="1317" weight="0.029650884744141567" />
+      <edge source="MWI" target="ZAF" id="1318" weight="0.5320658600927864" />
+      <edge source="MWI" target="ZWE" id="1319" weight="0.12753570453925225" />
+      <edge source="MWI" target="GBR" id="1320" weight="0.11111616483216591" />
+      <edge source="MWI" target="MOZ" id="1321" weight="0.10993359410533975" />
+      <edge source="MWI" target="ZMB" id="1322" weight="0.09060311107068135" />
+      <edge source="MWI" target="AUS" id="1323" weight="0.010415719093968892" />
+      <edge source="SSD" target="UGA" id="1324" weight="0.5472870657926885" />
+      <edge source="SSD" target="SDN" id="1325" weight="0.3380980129058557" />
+      <edge source="SSD" target="COD" id="1326" weight="0.05439652255258438" />
+      <edge source="SSD" target="ETH" id="1327" weight="0.0529854753595884" />
+      <edge source="SSD" target="EGY" id="1328" weight="0.004636857859206235" />
+      <edge source="ERI" target="DEU" id="1329" weight="0.2441144534827998" />
+      <edge source="ERI" target="SDN" id="1330" weight="0.22597708261299457" />
+      <edge source="ERI" target="SWE" id="1331" weight="0.14943009833002738" />
+      <edge source="ERI" target="ETH" id="1332" weight="0.09837855544030137" />
+      <edge source="ERI" target="NLD" id="1333" weight="0.05496411954893147" />
+      <edge source="ERI" target="NOR" id="1334" weight="0.04224369589877042" />
+      <edge source="ERI" target="UGA" id="1335" weight="0.032404627152675426" />
+      <edge source="ERI" target="DNK" id="1336" weight="0.031567517727915176" />
+      <edge source="ERI" target="QAT" id="1337" weight="0.02448848367939922" />
+      <edge source="ETH" target="SAU" id="1338" weight="0.30097005925226783" />
+      <edge source="ETH" target="USA" id="1339" weight="0.18559068743117824" />
+      <edge source="ETH" target="SDN" id="1340" weight="0.12407320014681977" />
+      <edge source="ETH" target="NLD" id="1341" weight="0.07323160820093334" />
+      <edge source="ETH" target="SOM" id="1342" weight="0.05985003408316292" />
+      <edge source="ETH" target="SWE" id="1343" weight="0.05953542027161659" />
+      <edge source="ETH" target="AUS" id="1344" weight="0.026616328456819254" />
+      <edge source="ETH" target="CAN" id="1345" weight="0.02446646741125268" />
+      <edge source="ETH" target="GBR" id="1346" weight="0.020565256148078238" />
+      <edge source="ETH" target="DEU" id="1347" weight="0.017828115987625185" />
+      <edge source="ETH" target="NOR" id="1348" weight="0.016758429028367675" />
+      <edge source="ETH" target="EGY" id="1349" weight="0.015416076765770016" />
+      <edge source="SWZ" target="ZAF" id="1350" weight="0.9645547614448522" />
+      <edge source="SWZ" target="GBR" id="1351" weight="0.019026463202627002" />
+      <edge source="SWZ" target="BWA" id="1352" weight="0.0038632412594166504" />
+      <edge source="SWZ" target="CAN" id="1353" weight="0.0027042688815916557" />
+      <edge source="AIA" target="GBR" id="1354" weight="0.7253521126760564" />
+      <edge source="AIA" target="CHL" id="1355" weight="0.10563380281690146" />
+      <edge source="ATG" target="USA" id="1356" weight="0.7204668374608596" />
+      <edge source="ATG" target="GBR" id="1357" weight="0.18274978650725876" />
+      <edge source="ATG" target="CAN" id="1358" weight="0.046683746085966406" />
+      <edge source="ATG" target="VGB" id="1359" weight="0.018502704241389126" />
+      <edge source="ATG" target="NAM" id="1360" weight="0.00740108169655565" />
+      <edge source="ATG" target="SXM" id="1361" weight="0.005123825789923143" />
+      <edge source="VGB" target="MLI" id="1362" weight="0.285" />
+      <edge source="VGB" target="GBR" id="1363" weight="0.2549999999999999" />
+      <edge source="VGB" target="SXM" id="1364" weight="0.15499999999999994" />
+      <edge source="SXM" target="NLD" id="1365" weight="0.980643147049641" />
+      <edge source="DOM" target="USA" id="1366" weight="0.7964178940224867" />
+      <edge source="DOM" target="ESP" id="1367" weight="0.09419306322334513" />
+      <edge source="DOM" target="ITA" id="1368" weight="0.037746923203903084" />
+      <edge source="DOM" target="DEU" id="1369" weight="0.008308725078410155" />
+      <edge source="DOM" target="NLD" id="1370" weight="0.00756589204159865" />
+      <edge source="DOM" target="CAN" id="1371" weight="0.006914766787109554" />
+      <edge source="DOM" target="CHE" id="1372" weight="0.006722180444232498" />
+      <edge source="DOM" target="AUT" id="1373" weight="0.0051723189229838035" />
+      <edge source="DOM" target="PAN" id="1374" weight="0.004686267676675042" />
+      <edge source="DOM" target="CUW" id="1375" weight="0.00455787678142367" />
+      <edge source="DOM" target="LUX" id="1376" weight="0.004447827442636783" />
+      <edge source="DOM" target="BEL" id="1377" weight="0.0030905522642651452" />
+      <edge source="CUW" target="NLD" id="1378" weight="0.9844432008953552" />
+      <edge source="CUW" target="SXM" id="1379" weight="0.005595970900951314" />
+      <edge source="BRB" target="USA" id="1380" weight="0.49850618864703367" />
+      <edge source="BRB" target="GBR" id="1381" weight="0.3645966709346992" />
+      <edge source="BRB" target="CAN" id="1382" weight="0.10702091335894152" />
+      <edge source="BRB" target="TTO" id="1383" weight="0.008642765685019205" />
+      <edge source="BRB" target="AUS" id="1384" weight="0.0027742210840802388" />
+      <edge source="BRB" target="CYM" id="1385" weight="0.0020273154075970976" />
+      <edge source="BRB" target="DNK" id="1386" weight="0.0017072129748186087" />
+      <edge source="BRB" target="CUW" id="1387" weight="0.0017072129748186087" />
+      <edge source="TTO" target="USA" id="1388" weight="0.6923102935208981" />
+      <edge source="TTO" target="CAN" id="1389" weight="0.15649939131610985" />
+      <edge source="TTO" target="GBR" id="1390" weight="0.12806032733666983" />
+      <edge source="TTO" target="NLD" id="1391" weight="0.0029081563641282296" />
+      <edge source="TTO" target="DEU" id="1392" weight="0.002502367104017314" />
+      <edge source="TTO" target="AUS" id="1393" weight="0.002299472473961856" />
+      <edge source="TTO" target="VGB" id="1394" weight="0.0011497362369809279" />
+      <edge source="TTO" target="CYM" id="1395" weight="0.001115920465305018" />
+      <edge source="TTO" target="JAM" id="1396" weight="0.0009806573786013796" />
+      <edge source="CYM" target="GBR" id="1397" weight="0.7534883720930232" />
+      <edge source="CYM" target="AUS" id="1398" weight="0.13023255813953488" />
+      <edge source="DMA" target="USA" id="1399" weight="0.5205314009661836" />
+      <edge source="DMA" target="GBR" id="1400" weight="0.22282608695652173" />
+      <edge source="DMA" target="FRA" id="1401" weight="0.0789049919484702" />
+      <edge source="DMA" target="CAN" id="1402" weight="0.03965378421900161" />
+      <edge source="DMA" target="ATG" id="1403" weight="0.03804347826086956" />
+      <edge source="DMA" target="VGB" id="1404" weight="0.02113526570048309" />
+      <edge source="DMA" target="GUF" id="1405" weight="0.015297906602254436" />
+      <edge source="JAM" target="USA" id="1406" weight="0.6009933567702143" />
+      <edge source="JAM" target="GBR" id="1407" weight="0.2356782725100399" />
+      <edge source="JAM" target="CAN" id="1408" weight="0.12318124382279717" />
+      <edge source="JAM" target="CYM" id="1409" weight="0.013761869612540818" />
+      <edge source="JAM" target="BHS" id="1410" weight="0.005779985237267143" />
+      <edge source="JAM" target="DEU" id="1411" weight="0.0023270070435750835" />
+      <edge source="JAM" target="NLD" id="1412" weight="0.0022269207191202415" />
+      <edge source="JAM" target="VGB" id="1413" weight="0.0020392588607674117" />
+      <edge source="JAM" target="ATG" id="1414" weight="0.0019892156985399905" />
+      <edge source="JAM" target="TTO" id="1415" weight="0.001426230123481503" />
+      <edge source="JAM" target="CUW" id="1416" weight="0.0014137193329246474" />
+      <edge source="BHS" target="USA" id="1417" weight="0.8391366906474821" />
+      <edge source="BHS" target="GBR" id="1418" weight="0.09007194244604318" />
+      <edge source="BHS" target="CAN" id="1419" weight="0.03338129496402877" />
+      <edge source="BHS" target="TCA" id="1420" weight="0.0060431654676259" />
+      <edge source="BHS" target="CYM" id="1421" weight="0.005467625899280576" />
+      <edge source="BHS" target="AUS" id="1422" weight="0.0048920863309352535" />
+      <edge source="MSR" target="GBR" id="1423" weight="0.6768558951965066" />
+      <edge source="MSR" target="USA" id="1424" weight="0.2610383309073266" />
+      <edge source="KNA" target="USA" id="1425" weight="0.5145074224021593" />
+      <edge source="KNA" target="GBR" id="1426" weight="0.3461538461538462" />
+      <edge source="KNA" target="CAN" id="1427" weight="0.050269905533063416" />
+      <edge source="KNA" target="VGB" id="1428" weight="0.03947368421052632" />
+      <edge source="KNA" target="SXM" id="1429" weight="0.01214574898785425" />
+      <edge source="VIR" target="MLI" id="1430" weight="0.34868421052631576" />
+      <edge source="VIR" target="ATG" id="1431" weight="0.1842105263157895" />
+      <edge source="VIR" target="GBR" id="1432" weight="0.15131578947368424" />
+      <edge source="TCA" target="BHS" id="1433" weight="0.48469387755102045" />
+      <edge source="SLV" target="USA" id="1434" weight="0.8838429756821765" />
+      <edge source="SLV" target="CAN" id="1435" weight="0.03938267484549609" />
+      <edge source="SLV" target="ITA" id="1436" weight="0.018551978916113293" />
+      <edge source="SLV" target="BLZ" id="1437" weight="0.009885949062618684" />
+      <edge source="SLV" target="AUS" id="1438" weight="0.00853943446386853" />
+      <edge source="SLV" target="GTM" id="1439" weight="0.005823387922799831" />
+      <edge source="SLV" target="PAN" id="1440" weight="0.005167393631101036" />
+      <edge source="SLV" target="ESP" id="1441" weight="0.0038208790323508777" />
+      <edge source="SLV" target="MEX" id="1442" weight="0.0037748443452141197" />
+      <edge source="SLV" target="CHL" id="1443" weight="0.0026585031821477487" />
+      <edge source="BLZ" target="USA" id="1444" weight="0.8779943158749494" />
+      <edge source="BLZ" target="GBR" id="1445" weight="0.04405196914332114" />
+      <edge source="BLZ" target="CAN" id="1446" weight="0.02862362971985383" />
+      <edge source="BLZ" target="BOL" id="1447" weight="0.016849370686155093" />
+      <edge source="BLZ" target="MEX" id="1448" weight="0.012383272431993502" />
+      <edge source="HTI" target="USA" id="1449" weight="0.467498735609522" />
+      <edge source="HTI" target="CHL" id="1450" weight="0.24703189692860267" />
+      <edge source="HTI" target="DOM" id="1451" weight="0.13654559949252937" />
+      <edge source="HTI" target="CAN" id="1452" weight="0.05703043966500083" />
+      <edge source="HTI" target="FRA" id="1453" weight="0.03878035608664718" />
+      <edge source="HTI" target="GUF" id="1454" weight="0.01729000402890525" />
+      <edge source="HTI" target="BHS" id="1455" weight="0.014572636018412959" />
+      <edge source="HTI" target="TCA" id="1456" weight="0.009532218383808943" />
+      <edge source="HTI" target="GLP" id="1457" weight="0.002023024764909093" />
+      <edge source="HTI" target="CUW" id="1458" weight="0.0014658357406756562" />
+      <edge source="ARM" target="DEU" id="1459" weight="0.4321183306920232" />
+      <edge source="ARM" target="USA" id="1460" weight="0.3059043439392093" />
+      <edge source="ARM" target="FRA" id="1461" weight="0.04717786175789345" />
+      <edge source="ARM" target="SWE" id="1462" weight="0.02738835385428095" />
+      <edge source="ARM" target="AUT" id="1463" weight="0.02234954691373075" />
+      <edge source="ARM" target="UKR" id="1464" weight="0.019220610345808447" />
+      <edge source="ARM" target="KAZ" id="1465" weight="0.016701206875533343" />
+      <edge source="ARM" target="GEO" id="1466" weight="0.01536023406070949" />
+      <edge source="ARM" target="ESP" id="1467" weight="0.013978625706042504" />
+      <edge source="ARM" target="CAN" id="1468" weight="0.012028119793571457" />
+      <edge source="ABW" target="NLD" id="1469" weight="0.5417515274949084" />
+      <edge source="ABW" target="USA" id="1470" weight="0.26782077393075354" />
+      <edge source="BTN" target="AUS" id="1471" weight="0.8095634095634097" />
+      <edge source="BTN" target="CAN" id="1472" weight="0.1255717255717256" />
+      <edge source="BTN" target="GBR" id="1473" weight="0.017879417879417877" />
+      <edge source="KHM" target="THA" id="1474" weight="0.5087022459738572" />
+      <edge source="KHM" target="USA" id="1475" weight="0.2618076117570593" />
+      <edge source="KHM" target="AUS" id="1476" weight="0.06965407669531307" />
+      <edge source="KHM" target="FRA" id="1477" weight="0.06959991333862932" />
+      <edge source="KHM" target="CAN" id="1478" weight="0.029952336246118285" />
+      <edge source="KHM" target="MYS" id="1479" weight="0.01272838882068318" />
+      <edge source="KHM" target="JPN" id="1480" weight="0.007275944247851519" />
+      <edge source="KHM" target="BGD" id="1481" weight="0.004658048674803207" />
+      <edge source="THA" target="USA" id="1482" weight="0.23730504472747826" />
+      <edge source="THA" target="AUS" id="1483" weight="0.1599658585791405" />
+      <edge source="THA" target="DEU" id="1484" weight="0.06885925531796969" />
+      <edge source="THA" target="HKG" id="1485" weight="0.06288450666755345" />
+      <edge source="THA" target="GBR" id="1486" weight="0.05632225954130779" />
+      <edge source="THA" target="SWE" id="1487" weight="0.05485905579018544" />
+      <edge source="THA" target="JPN" id="1488" weight="0.05085741522840388" />
+      <edge source="THA" target="NOR" id="1489" weight="0.04021593340205956" />
+      <edge source="THA" target="FIN" id="1490" weight="0.024408898939177276" />
+      <edge source="THA" target="KHM" id="1491" weight="0.021637679713566782" />
+      <edge source="THA" target="DNK" id="1492" weight="0.01887754536485872" />
+      <edge source="THA" target="NLD" id="1493" weight="0.01766929378249254" />
+      <edge source="THA" target="CHE" id="1494" weight="0.014022369281589129" />
+      <edge source="THA" target="PRT" id="1495" weight="0.013468125436467023" />
+      <edge source="THA" target="BRN" id="1496" weight="0.012270958731003291" />
+      <edge source="THA" target="FRA" id="1497" weight="0.012237704100295966" />
+      <edge source="CAF" target="COD" id="1498" weight="0.837334788407906" />
+      <edge source="CAF" target="TCD" id="1499" weight="0.10372256578149631" />
+      <edge source="CAF" target="SDN" id="1500" weight="0.03813507942282041" />
+      <edge source="CAF" target="FRA" id="1501" weight="0.012331757002546382" />
+      <edge source="CAF" target="SSD" id="1502" weight="0.001406572086819449" />
+      <edge source="CAF" target="MLI" id="1503" weight="0.0012974414938765613" />
+      <edge source="TCD" target="SDN" id="1504" weight="0.7033678756476685" />
+      <edge source="TCD" target="AGO" id="1505" weight="0.07678918393782382" />
+      <edge source="TCD" target="NGA" id="1506" weight="0.05638762953367874" />
+      <edge source="TCD" target="CAF" id="1507" weight="0.045012953367875634" />
+      <edge source="TCD" target="DEU" id="1508" weight="0.01987532383419689" />
+      <edge source="TCD" target="FRA" id="1509" weight="0.018256152849740928" />
+      <edge source="TCD" target="ARE" id="1510" weight="0.01469397668393782" />
+      <edge source="TCD" target="GAB" id="1511" weight="0.014451101036269426" />
+      <edge source="TCD" target="COD" id="1512" weight="0.01311528497409326" />
+      <edge source="MAC" target="HKG" id="1513" weight="0.867050596462361" />
+      <edge source="MAC" target="CHN" id="1514" weight="0.054175236528177705" />
+      <edge source="COK" target="AUS" id="1515" weight="0.5926724137931035" />
+      <edge source="FJI" target="AUS" id="1516" weight="0.46161131028884533" />
+      <edge source="FJI" target="USA" id="1517" weight="0.25299330311844687" />
+      <edge source="FJI" target="CAN" id="1518" weight="0.11871744571467228" />
+      <edge source="FJI" target="NZL" id="1519" weight="0.10342961509842387" />
+      <edge source="FJI" target="GBR" id="1520" weight="0.05553676520327403" />
+      <edge source="FJI" target="KIR" id="1521" weight="0.0011499695596293039" />
+      <edge source="KIR" target="AUS" id="1522" weight="0.5096525096525096" />
+      <edge source="KIR" target="NZL" id="1523" weight="0.1621621621621622" />
+      <edge source="PRK" target="KAZ" id="1524" weight="0.4761904761904763" />
+      <edge source="PRK" target="GBR" id="1525" weight="0.25116039195461576" />
+      <edge source="PRK" target="AUT" id="1526" weight="0.08320440089393158" />
+      <edge source="PRK" target="DEU" id="1527" weight="0.04194602028537046" />
+      <edge source="PRK" target="MLI" id="1528" weight="0.03489771359807461" />
+      <edge source="PRK" target="PHL" id="1529" weight="0.031115695375623174" />
+      <edge source="PRK" target="VNM" id="1530" weight="0.011689874505758981" />
+      <edge source="PRK" target="CAN" id="1531" weight="0.009455045556128586" />
+      <edge source="VNM" target="USA" id="1532" weight="0.3060783750291841" />
+      <edge source="VNM" target="JPN" id="1533" weight="0.2818510802607712" />
+      <edge source="VNM" target="AUS" id="1534" weight="0.132127655753309" />
+      <edge source="VNM" target="CAN" id="1535" weight="0.05408487634920352" />
+      <edge source="VNM" target="DEU" id="1536" weight="0.04145489484743451" />
+      <edge source="VNM" target="FRA" id="1537" weight="0.03438336236777357" />
+      <edge source="VNM" target="GBR" id="1538" weight="0.020267236579802807" />
+      <edge source="VNM" target="MYS" id="1539" weight="0.019566818124674482" />
+      <edge source="VNM" target="SWE" id="1540" weight="0.015099405542285518" />
+      <edge source="VNM" target="HKG" id="1541" weight="0.014506743772561554" />
+      <edge source="VNM" target="FIN" id="1542" weight="0.011664661195021641" />
+      <edge source="VNM" target="KHM" id="1543" weight="0.010362601246385661" />
+      <edge source="LAO" target="THA" id="1544" weight="0.6181185796327753" />
+      <edge source="LAO" target="USA" id="1545" weight="0.2763245167030655" />
+      <edge source="LAO" target="FRA" id="1546" weight="0.041963924613766884" />
+      <edge source="LAO" target="BGD" id="1547" weight="0.01879802636900429" />
+      <edge source="LAO" target="CAN" id="1548" weight="0.016662622340855773" />
+      <edge source="LAO" target="AUS" id="1549" weight="0.010854970476421581" />
+      <edge source="LAO" target="VNM" id="1550" weight="0.005112027824961579" />
+      <edge source="MDV" target="GBR" id="1551" weight="0.3809523809523809" />
+      <edge source="MDV" target="AUS" id="1552" weight="0.27777777777777785" />
+      <edge source="MDV" target="LKA" id="1553" weight="0.0793650793650794" />
+      <edge source="MNG" target="AUS" id="1554" weight="0.30126088261783246" />
+      <edge source="MNG" target="SWE" id="1555" weight="0.25097568297808465" />
+      <edge source="MNG" target="CZE" id="1556" weight="0.18402882017412187" />
+      <edge source="MNG" target="KOR" id="1557" weight="0.06799759831882318" />
+      <edge source="MNG" target="AUT" id="1558" weight="0.04878414890423294" />
+      <edge source="MNG" target="GBR" id="1559" weight="0.025067547283098165" />
+      <edge source="NRU" target="AUS" id="1560" weight="0.5466666666666667" />
+      <edge source="VUT" target="NCL" id="1561" weight="0.4098712446351932" />
+      <edge source="VUT" target="AUS" id="1562" weight="0.3969957081545065" />
+      <edge source="VUT" target="FRA" id="1563" weight="0.09442060085836908" />
+      <edge source="PNG" target="GBR" id="1564" weight="0.6535714285714286" />
+      <edge source="PNG" target="NZL" id="1565" weight="0.13928571428571426" />
+      <edge source="PNG" target="CAN" id="1566" weight="0.05714285714285713" />
+      <edge source="AZE" target="DEU" id="1567" weight="0.3036071143085532" />
+      <edge source="AZE" target="TUR" id="1568" weight="0.2965627498001599" />
+      <edge source="AZE" target="KAZ" id="1569" weight="0.10866306954436451" />
+      <edge source="AZE" target="USA" id="1570" weight="0.08762989608313348" />
+      <edge source="AZE" target="UKR" id="1571" weight="0.04106714628297362" />
+      <edge source="AZE" target="SWE" id="1572" weight="0.03592126298960832" />
+      <edge source="AZE" target="GBR" id="1573" weight="0.014538369304556355" />
+      <edge source="MMR" target="BGD" id="1574" weight="0.8155527082119977" />
+      <edge source="MMR" target="THA" id="1575" weight="0.08848223645893999" />
+      <edge source="MMR" target="SAU" id="1576" weight="0.054499708794408845" />
+      <edge source="MMR" target="MYS" id="1577" weight="0.017584158415841582" />
+      <edge source="MMR" target="USA" id="1578" weight="0.012511357018054746" />
+      <edge source="MMR" target="AUS" id="1579" weight="0.006263249854397206" />
+      <edge source="MMR" target="GBR" id="1580" weight="0.0021688992428654627" />
+      <edge source="MMR" target="CAN" id="1581" weight="0.0006802562609202093" />
+      <edge source="MMR" target="VNM" id="1582" weight="0.0005917297612114151" />
+      <edge source="MUS" target="GBR" id="1583" weight="0.3782642588021307" />
+      <edge source="MUS" target="AUS" id="1584" weight="0.17669221774717422" />
+      <edge source="MUS" target="FRA" id="1585" weight="0.17526308951539557" />
+      <edge source="MUS" target="ZAF" id="1586" weight="0.10419644017149535" />
+      <edge source="MUS" target="CAN" id="1587" weight="0.07347018318825517" />
+      <edge source="MUS" target="IRL" id="1588" weight="0.020527478238274652" />
+      <edge source="NFK" target="GUM" id="1589" weight="0.865079365079365" />
+      <edge source="GUM" target="PHL" id="1590" weight="0.596153846153846" />
+      <edge source="SYC" target="MOZ" id="1591" weight="0.3931366646598434" />
+      <edge source="SYC" target="GBR" id="1592" weight="0.33052378085490663" />
+      <edge source="SYC" target="AUS" id="1593" weight="0.08669476219145095" />
+      <edge source="SYC" target="ZAF" id="1594" weight="0.07465382299819384" />
+      <edge source="SYC" target="CAN" id="1595" weight="0.04394942805538832" />
+      <edge source="GRD" target="USA" id="1596" weight="0.4810874704491726" />
+      <edge source="GRD" target="GBR" id="1597" weight="0.2722053360351233" />
+      <edge source="GRD" target="CAN" id="1598" weight="0.1232691658223573" />
+      <edge source="GRD" target="TTO" id="1599" weight="0.10368118878757175" />
+      <edge source="GRD" target="MLI" id="1600" weight="0.007092198581560283" />
+      <edge source="GRD" target="ESP" id="1601" weight="0.0037149611617696716" />
+      <edge source="GUY" target="USA" id="1602" weight="0.6411157301864021" />
+      <edge source="GUY" target="CAN" id="1603" weight="0.16735952796030576" />
+      <edge source="GUY" target="GBR" id="1604" weight="0.0966340351347727" />
+      <edge source="GUY" target="SUR" id="1605" weight="0.02303875553171516" />
+      <edge source="GUY" target="TTO" id="1606" weight="0.020168968754190695" />
+      <edge source="GUY" target="GUF" id="1607" weight="0.01045997049751911" />
+      <edge source="GUY" target="FRA" id="1608" weight="0.00769746546868714" />
+      <edge source="GUY" target="BRA" id="1609" weight="0.007643824594340888" />
+      <edge source="GUY" target="ATG" id="1610" weight="0.006946493227839615" />
+      <edge source="GUY" target="VGB" id="1611" weight="0.00520316481158643" />
+      <edge source="SUR" target="GUF" id="1612" weight="0.4438270768396801" />
+      <edge source="SUR" target="FRA" id="1613" weight="0.20097574197045665" />
+      <edge source="SUR" target="USA" id="1614" weight="0.16004878709852285" />
+      <edge source="SUR" target="BEL" id="1615" weight="0.12088358856213577" />
+      <edge source="SUR" target="CUW" id="1616" weight="0.02195419433527579" />
+      <edge source="SUR" target="GUY" id="1617" weight="0.012738853503184712" />
+      <edge source="VCT" target="USA" id="1618" weight="0.40525365951473835" />
+      <edge source="VCT" target="GBR" id="1619" weight="0.2460397032283938" />
+      <edge source="VCT" target="CAN" id="1620" weight="0.18468016843793864" />
+      <edge source="VCT" target="TTO" id="1621" weight="0.09865650691798676" />
+      <edge source="VCT" target="VGB" id="1622" weight="0.03789853619410466" />
+      <edge source="VCT" target="ATG" id="1623" weight="0.00721876879887708" />
+      <edge source="BLR" target="USA" id="1624" weight="0.22099775938543145" />
+      <edge source="BLR" target="POL" id="1625" weight="0.20503909643788013" />
+      <edge source="BLR" target="KAZ" id="1626" weight="0.14216470803420367" />
+      <edge source="BLR" target="UKR" id="1627" weight="0.11225936256801868" />
+      <edge source="BLR" target="DEU" id="1628" weight="0.09538616306186841" />
+      <edge source="BLR" target="CAN" id="1629" weight="0.03639855503223741" />
+      <edge source="BLR" target="SWE" id="1630" weight="0.029127989391375925" />
+      <edge source="BLR" target="GBR" id="1631" weight="0.02130870181535507" />
+      <edge source="BLR" target="CZE" id="1632" weight="0.018519365311628334" />
+      <edge source="CMR" target="FRA" id="1633" weight="0.15916843663512903" />
+      <edge source="CMR" target="GAB" id="1634" weight="0.1288537040612731" />
+      <edge source="CMR" target="USA" id="1635" weight="0.12660101692733475" />
+      <edge source="CMR" target="BEL" id="1636" weight="0.10121001480337259" />
+      <edge source="CMR" target="TCD" id="1637" weight="0.09647937182210206" />
+      <edge source="CMR" target="ITA" id="1638" weight="0.07025165733410568" />
+      <edge source="CMR" target="DEU" id="1639" weight="0.052326703996910605" />
+      <edge source="CMR" target="CAN" id="1640" weight="0.04251142434189354" />
+      <edge source="CMR" target="NGA" id="1641" weight="0.04132071828538328" />
+      <edge source="CMR" target="GBR" id="1642" weight="0.03649353156980112" />
+      <edge source="CMR" target="LUX" id="1643" weight="0.03147325738559568" />
+      <edge source="SLE" target="LBR" id="1644" weight="0.2571263621274446" />
+      <edge source="SLE" target="GBR" id="1645" weight="0.24687883380241032" />
+      <edge source="SLE" target="USA" id="1646" weight="0.24031175579129677" />
+      <edge source="SLE" target="SEN" id="1647" weight="0.036082846214909425" />
+      <edge source="SLE" target="AUS" id="1648" weight="0.027350797430901345" />
+      <edge source="SLE" target="ITA" id="1649" weight="0.02172187342137548" />
+      <edge source="SLE" target="GHA" id="1650" weight="0.021577542036515837" />
+      <edge source="LBR" target="USA" id="1651" weight="0.5016528318519063" />
+      <edge source="LBR" target="GHA" id="1652" weight="0.2803202820833027" />
+      <edge source="LBR" target="NGA" id="1653" weight="0.07206346874311317" />
+      <edge source="LBR" target="GBR" id="1654" weight="0.03180783075001836" />
+      <edge source="LBR" target="AUS" id="1655" weight="0.0282083302725336" />
+      <edge source="LBR" target="CAN" id="1656" weight="0.012928818041577902" />
+      <edge source="LBR" target="DEU" id="1657" weight="0.011753470946889001" />
+      <edge source="BMU" target="USA" id="1658" weight="0.46830530401034937" />
+      <edge source="BMU" target="GBR" id="1659" weight="0.39650711513583436" />
+      <edge source="BMU" target="CAN" id="1660" weight="0.0847347994825356" />
+      <edge source="BIH" target="AUT" id="1661" weight="0.3526145477896275" />
+      <edge source="BIH" target="DEU" id="1662" weight="0.2056634895052946" />
+      <edge source="BIH" target="USA" id="1663" weight="0.12826582390047972" />
+      <edge source="BIH" target="SRB" id="1664" weight="0.067425491998338" />
+      <edge source="BIH" target="SVN" id="1665" weight="0.04857657294670176" />
+      <edge source="BIH" target="CAN" id="1666" weight="0.032371790836176834" />
+      <edge source="BIH" target="SWE" id="1667" weight="0.028128580602107756" />
+      <edge source="BIH" target="CHE" id="1668" weight="0.026970196799335194" />
+      <edge source="BIH" target="ITA" id="1669" weight="0.01845859407461503" />
+      <edge source="LSO" target="ZAF" id="1670" weight="0.9860363716643211" />
+      <edge source="LSO" target="MOZ" id="1671" weight="0.008334023235919086" />
+      <edge source="LSO" target="GBR" id="1672" weight="0.0025940337224383916" />
+      <edge source="SOM" target="ETH" id="1673" weight="0.2565076001706912" />
+      <edge source="SOM" target="DEU" id="1674" weight="0.17258935534660602" />
+      <edge source="SOM" target="GBR" id="1675" weight="0.1420783119233655" />
+      <edge source="SOM" target="USA" id="1676" weight="0.05466531290925411" />
+      <edge source="SOM" target="LBY" id="1677" weight="0.046940066804985366" />
+      <edge source="SOM" target="SWE" id="1678" weight="0.04557895201518562" />
+      <edge source="SOM" target="EGY" id="1679" weight="0.04441648641092424" />
+      <edge source="SOM" target="YEM" id="1680" weight="0.030702335231536662" />
+      <edge source="SOM" target="NOR" id="1681" weight="0.0283185450050766" />
+      <edge source="SOM" target="ZAF" id="1682" weight="0.025934754778616523" />
+      <edge source="SOM" target="BEL" id="1683" weight="0.02158654482849954" />
+      <edge source="GNQ" target="GAB" id="1684" weight="0.7494546247818499" />
+      <edge source="GNQ" target="ESP" id="1685" weight="0.21640488656195467" />
+      <edge source="GNQ" target="MLI" id="1686" weight="0.010034904013961607" />
+      <edge source="GNQ" target="COD" id="1687" weight="0.005235602094240837" />
+      <edge source="GNQ" target="ITA" id="1688" weight="0.003817626527050612" />
+      <edge source="MDG" target="FRA" id="1689" weight="0.7986701547852626" />
+      <edge source="MDG" target="ITA" id="1690" weight="0.028340963592762156" />
+      <edge source="MDG" target="REU" id="1691" weight="0.027904948768258105" />
+      <edge source="MDG" target="CAN" id="1692" weight="0.027468933943754083" />
+      <edge source="MDG" target="BEL" id="1693" weight="0.025615870939611946" />
+      <edge source="MDG" target="GBR" id="1694" weight="0.016786570743405275" />
+      <edge source="MHL" target="USA" id="1695" weight="0.9728353140916808" />
+      <edge source="PLW" target="GUM" id="1696" weight="0.7473684210526317" />
+      <edge source="COM" target="FRA" id="1697" weight="0.5120606478290833" />
+      <edge source="COM" target="MDG" id="1698" weight="0.22490236618424073" />
+      <edge source="COM" target="MYT" id="1699" weight="0.11693085228577992" />
+      <edge source="HRV" target="DEU" id="1700" weight="0.8226179935980384" />
+      <edge source="HRV" target="AUT" id="1701" weight="0.04097709369111669" />
+      <edge source="HRV" target="SRB" id="1702" weight="0.025624872301300818" />
+      <edge source="HRV" target="SWE" id="1703" weight="0.022440918068514604" />
+      <edge source="HRV" target="USA" id="1704" weight="0.02037503689073531" />
+      <edge source="HRV" target="CAN" id="1705" weight="0.016175168562282908" />
+      <edge source="HRV" target="GBR" id="1706" weight="0.007366796068015166" />
+      <edge source="HRV" target="DNK" id="1707" weight="0.006912756248723011" />
+      <edge source="HRV" target="NOR" id="1708" weight="0.006129537560444049" />
+      <edge source="HRV" target="ITA" id="1709" weight="0.0049490340302844535" />
+      <edge source="HRV" target="AUS" id="1710" weight="0.0040125769029943905" />
+      <edge source="CUB" target="USA" id="1711" weight="0.853006126708409" />
+      <edge source="CUB" target="ESP" id="1712" weight="0.06943378442065574" />
+      <edge source="CUB" target="ITA" id="1713" weight="0.02402208308085908" />
+      <edge source="CUB" target="CAN" id="1714" weight="0.00855046118629233" />
+      <edge source="CUB" target="DEU" id="1715" weight="0.007991651518211804" />
+      <edge source="CUB" target="TTO" id="1716" weight="0.005709284319666059" />
+      <edge source="CUB" target="MEX" id="1717" weight="0.002612266882111357" />
+      <edge source="CUB" target="PRI" id="1718" weight="0.0021813774994950503" />
+      <edge source="CUB" target="BRA" id="1719" weight="0.0021005857402544934" />
+      <edge source="CUB" target="GBR" id="1720" weight="0.0020130613344105566" />
+      <edge source="CUB" target="SWE" id="1721" weight="0.0019793981013936576" />
+      <edge source="CUB" target="FRA" id="1722" weight="0.0019524675149801376" />
+      <edge source="CUB" target="ZAF" id="1723" weight="0.0019390022217733787" />
+      <edge source="CYP" target="GBR" id="1724" weight="0.5771867767151404" />
+      <edge source="CYP" target="TUR" id="1725" weight="0.1604436874972706" />
+      <edge source="CYP" target="USA" id="1726" weight="0.07118214769203896" />
+      <edge source="CYP" target="ZAF" id="1727" weight="0.04048211712301847" />
+      <edge source="CYP" target="DEU" id="1728" weight="0.03192279138827022" />
+      <edge source="CYP" target="ROU" id="1729" weight="0.026464037730905277" />
+      <edge source="CYP" target="AUS" id="1730" weight="0.01807939211319271" />
+      <edge source="CYP" target="BGR" id="1731" weight="0.01589589065024673" />
+      <edge source="DJI" target="FRA" id="1732" weight="0.2489082969432314" />
+      <edge source="DJI" target="ETH" id="1733" weight="0.18153462258265757" />
+      <edge source="DJI" target="BEL" id="1734" weight="0.14971927635683094" />
+      <edge source="DJI" target="SWE" id="1735" weight="0.11478477854023708" />
+      <edge source="YEM" target="SAU" id="1736" weight="0.790203875454476" />
+      <edge source="YEM" target="ARE" id="1737" weight="0.08204357096287243" />
+      <edge source="YEM" target="KWT" id="1738" weight="0.02251381783366911" />
+      <edge source="YEM" target="USA" id="1739" weight="0.02142131323751402" />
+      <edge source="YEM" target="GBR" id="1740" weight="0.015130601288685524" />
+      <edge source="YEM" target="JOR" id="1741" weight="0.0126871501488978" />
+      <edge source="YEM" target="SWE" id="1742" weight="0.009955888658510081" />
+      <edge source="YEM" target="EGY" id="1743" weight="0.009914772894138653" />
+      <edge source="YEM" target="DEU" id="1744" weight="0.00976205719790192" />
+      <edge source="YEM" target="SOM" id="1745" weight="0.006860458969403997" />
+      <edge source="TUV" target="NZL" id="1746" weight="0.5256410256410258" />
+      <edge source="TUV" target="AUS" id="1747" weight="0.14102564102564105" />
+      <edge source="MCO" target="FRA" id="1748" weight="0.7211401425178147" />
+      <edge source="MCO" target="ITA" id="1749" weight="0.1691211401425178" />
+      <edge source="MCO" target="GBR" id="1750" weight="0.024703087885985745" />
+      <edge source="MCO" target="CHE" id="1751" weight="0.012351543942992873" />
+      <edge source="MCO" target="EGY" id="1752" weight="0.011401425178147266" />
+      <edge source="SPM" target="CAN" id="1753" weight="0.7692307692307693" />
+      <edge source="GIB" target="GBR" id="1754" weight="0.9671931956257593" />
+      <edge source="GIB" target="AUS" id="1755" weight="0.010328068043742405" />
+      <edge source="GRL" target="DNK" id="1756" weight="0.8693181818181819" />
+      <edge source="GIN" target="AGO" id="1757" weight="0.3894351262772316" />
+      <edge source="GIN" target="DEU" id="1758" weight="0.12308549150654413" />
+      <edge source="GIN" target="GMB" id="1759" weight="0.1026926290084185" />
+      <edge source="GIN" target="MLI" id="1760" weight="0.08831908831908833" />
+      <edge source="GIN" target="ITA" id="1761" weight="0.06754064648801492" />
+      <edge source="GIN" target="BEL" id="1762" weight="0.049032838506522715" />
+      <edge source="GIN" target="FRA" id="1763" weight="0.03937193410877621" />
+      <edge source="GIN" target="SEN" id="1764" weight="0.03699419488893173" />
+      <edge source="GIN" target="USA" id="1765" weight="0.03476640318745583" />
+      <edge source="GIN" target="GNB" id="1766" weight="0.010303536619326092" />
+      <edge source="IRN" target="TUR" id="1767" weight="0.33107087850693084" />
+      <edge source="IRN" target="AUS" id="1768" weight="0.08540452390299881" />
+      <edge source="IRN" target="DEU" id="1769" weight="0.0848684806571437" />
+      <edge source="IRN" target="CAN" id="1770" weight="0.08297345453447284" />
+      <edge source="IRN" target="GBR" id="1771" weight="0.08095008002899162" />
+      <edge source="IRN" target="SWE" id="1772" weight="0.07731857578594513" />
+      <edge source="IRN" target="USA" id="1773" weight="0.06729230211699337" />
+      <edge source="IRN" target="NLD" id="1774" weight="0.033325280101470726" />
+      <edge source="IRN" target="DNK" id="1775" weight="0.022853562045118233" />
+      <edge source="IRN" target="AUT" id="1776" weight="0.021109534019871354" />
+      <edge source="IRN" target="NOR" id="1777" weight="0.018761513604928583" />
+      <edge source="IRN" target="ITA" id="1778" weight="0.016111496995137864" />
+      <edge source="IRN" target="FIN" id="1779" weight="0.01443541811373177" />
+      <edge source="ISR" target="USA" id="1780" weight="0.5108294050197477" />
+      <edge source="ISR" target="GBR" id="1781" weight="0.08093387692699706" />
+      <edge source="ISR" target="CAN" id="1782" weight="0.060580965728118226" />
+      <edge source="ISR" target="ROU" id="1783" weight="0.04401834628615109" />
+      <edge source="ISR" target="DEU" id="1784" weight="0.03876289973245" />
+      <edge source="ISR" target="AUS" id="1785" weight="0.038285131863931704" />
+      <edge source="ISR" target="TUR" id="1786" weight="0.03060899477640465" />
+      <edge source="ISR" target="ZAF" id="1787" weight="0.026818703019492927" />
+      <edge source="ISR" target="NLD" id="1788" weight="0.023283220792457635" />
+      <edge source="ISR" target="FRA" id="1789" weight="0.017804815900114665" />
+      <edge source="ISR" target="CHL" id="1790" weight="0.017135940884189068" />
+      <edge source="ISR" target="AUT" id="1791" weight="0.014715250350363104" />
+      <edge source="ISR" target="ITA" id="1792" weight="0.01054274429863677" />
+      <edge source="FSM" target="USA" id="1793" weight="0.5389121338912134" />
+      <edge source="KEN" target="GBR" id="1794" weight="0.3968275097060455" />
+      <edge source="KEN" target="USA" id="1795" weight="0.2218968386023295" />
+      <edge source="KEN" target="AUS" id="1796" weight="0.09765945646145315" />
+      <edge source="KEN" target="ZAF" id="1797" weight="0.06879645036051028" />
+      <edge source="KEN" target="CAN" id="1798" weight="0.042861896838602344" />
+      <edge source="KEN" target="DEU" id="1799" weight="0.027243483083749315" />
+      <edge source="KEN" target="SWE" id="1800" weight="0.023915696062118692" />
+      <edge source="KEN" target="MOZ" id="1801" weight="0.021209095951192452" />
+      <edge source="KEN" target="SDN" id="1802" weight="0.013311148086522461" />
+      <edge source="KEN" target="NLD" id="1803" weight="0.010915141430948424" />
+      <edge source="KEN" target="ITA" id="1804" weight="0.010671103716028842" />
+      <edge source="KEN" target="NOR" id="1805" weight="0.00803105934553522" />
+      <edge source="KGZ" target="DEU" id="1806" weight="0.6740587423615219" />
+      <edge source="KGZ" target="TUR" id="1807" weight="0.06830277942046126" />
+      <edge source="KGZ" target="USA" id="1808" weight="0.04809777252119061" />
+      <edge source="KGZ" target="KAZ" id="1809" weight="0.029765424797949927" />
+      <edge source="KGZ" target="UKR" id="1810" weight="0.026315789473684206" />
+      <edge source="KGZ" target="ITA" id="1811" weight="0.02621722846441947" />
+      <edge source="KGZ" target="SWE" id="1812" weight="0.024344569288389514" />
+      <edge source="KGZ" target="CAN" id="1813" weight="0.020796372954859053" />
+      <edge source="LBN" target="SAU" id="1814" weight="0.3550213097233034" />
+      <edge source="LBN" target="USA" id="1815" weight="0.1011651074722578" />
+      <edge source="LBN" target="DEU" id="1816" weight="0.0857798830934065" />
+      <edge source="LBN" target="AUS" id="1817" weight="0.08464512383390291" />
+      <edge source="LBN" target="CAN" id="1818" weight="0.08333883119796272" />
+      <edge source="LBN" target="FRA" id="1819" weight="0.037869291567155315" />
+      <edge source="LBN" target="ARE" id="1820" weight="0.03756580943961364" />
+      <edge source="LBN" target="SWE" id="1821" weight="0.035045588293506805" />
+      <edge source="LBN" target="GBR" id="1822" weight="0.029358597120878252" />
+      <edge source="LBN" target="BRA" id="1823" weight="0.024516077955322155" />
+      <edge source="LBN" target="BEL" id="1824" weight="0.01348516236293823" />
+      <edge source="LBN" target="EGY" id="1825" weight="0.012416377478987163" />
+      <edge source="LBN" target="NLD" id="1826" weight="0.010226028210642982" />
+      <edge source="LBN" target="KWT" id="1827" weight="0.008946125324923797" />
+      <edge source="LBN" target="LBY" id="1828" weight="0.008906540699592274" />
+      <edge source="LBN" target="NOR" id="1829" weight="0.00790373019119374" />
+      <edge source="MTQ" target="GUF" id="1830" weight="0.5770020533880904" />
+      <edge source="MTQ" target="GLP" id="1831" weight="0.29979466119096515" />
+      <edge source="NPL" target="QAT" id="1832" weight="0.36735174144963906" />
+      <edge source="NPL" target="SAU" id="1833" weight="0.31363208489032146" />
+      <edge source="NPL" target="AUS" id="1834" weight="0.09935961434235674" />
+      <edge source="NPL" target="MYS" id="1835" weight="0.08994993867130671" />
+      <edge source="NPL" target="USA" id="1836" weight="0.03010454402829677" />
+      <edge source="NPL" target="PRT" id="1837" weight="0.019090338591436797" />
+      <edge source="NPL" target="GBR" id="1838" weight="0.017029409247796445" />
+      <edge source="NPL" target="HKG" id="1839" weight="0.009837550275265994" />
+      <edge source="NPL" target="DNK" id="1840" weight="0.009206435234047407" />
+      <edge source="NPL" target="DEU" id="1841" weight="0.00855036084091622" />
+      <edge source="NPL" target="ARE" id="1842" weight="0.006753287503209059" />
+      <edge source="NPL" target="KWT" id="1843" weight="0.0047565393502011005" />
+      <edge source="NIU" target="NZL" id="1844" weight="0.5377777777777778" />
+      <edge source="PAK" target="SAU" id="1845" weight="0.3651788820698173" />
+      <edge source="PAK" target="QAT" id="1846" weight="0.14461001469144444" />
+      <edge source="PAK" target="GBR" id="1847" weight="0.10176395933723696" />
+      <edge source="PAK" target="ARE" id="1848" weight="0.09533381131001764" />
+      <edge source="PAK" target="OMN" id="1849" weight="0.06383805887001241" />
+      <edge source="PAK" target="USA" id="1850" weight="0.04236573104374051" />
+      <edge source="PAK" target="DEU" id="1851" weight="0.03343676974154044" />
+      <edge source="PAK" target="ITA" id="1852" weight="0.0330634971835529" />
+      <edge source="PAK" target="AUS" id="1853" weight="0.02642769710551781" />
+      <edge source="PAK" target="KWT" id="1854" weight="0.025903706948644738" />
+      <edge source="PAK" target="CAN" id="1855" weight="0.020276447065021262" />
+      <edge source="PAK" target="SWE" id="1856" weight="0.00775702632768823" />
+      <edge source="PAK" target="BHR" id="1857" weight="0.005532885312358703" />
+      <edge source="PAK" target="MYS" id="1858" weight="0.005155387027299605" />
+      <edge source="PAK" target="NOR" id="1859" weight="0.00331156144841021" />
+      <edge source="PAK" target="HKG" id="1860" weight="0.003145349516928967" />
+      <edge source="PAK" target="ZAF" id="1861" weight="0.0026579823280093867" />
+      <edge source="PAK" target="JPN" id="1862" weight="0.0024128901578590774" />
+      <edge source="PAK" target="FRA" id="1863" weight="0.0020382090241810188" />
+      <edge source="MDA" target="ROU" id="1864" weight="0.6528733199280348" />
+      <edge source="MDA" target="ITA" id="1865" weight="0.16911842523018317" />
+      <edge source="MDA" target="USA" id="1866" weight="0.033760186263096625" />
+      <edge source="MDA" target="ESP" id="1867" weight="0.01873214096729813" />
+      <edge source="MDA" target="DEU" id="1868" weight="0.018231847525952728" />
+      <edge source="MDA" target="UKR" id="1869" weight="0.014402678494116746" />
+      <edge source="MDA" target="CZE" id="1870" weight="0.013517543944044107" />
+      <edge source="MDA" target="CAN" id="1871" weight="0.012055147730880617" />
+      <edge source="MDA" target="TUR" id="1872" weight="0.007927726839781027" />
+      <edge source="RUS" target="KAZ" id="1873" weight="0.2958166996544668" />
+      <edge source="RUS" target="DEU" id="1874" weight="0.2949472754313574" />
+      <edge source="RUS" target="UKR" id="1875" weight="0.09157469220705156" />
+      <edge source="RUS" target="USA" id="1876" weight="0.06991177161260019" />
+      <edge source="RUS" target="NLD" id="1877" weight="0.022800720140449753" />
+      <edge source="RUS" target="ESP" id="1878" weight="0.022694488241806168" />
+      <edge source="RUS" target="BGR" id="1879" weight="0.02030427052232547" />
+      <edge source="RUS" target="TUR" id="1880" weight="0.019633332215102817" />
+      <edge source="RUS" target="CAN" id="1881" weight="0.015655227168528518" />
+      <edge source="RUS" target="AUT" id="1882" weight="0.015627271405727575" />
+      <edge source="RUS" target="GBR" id="1883" weight="0.012991042973598575" />
+      <edge source="RUS" target="ITA" id="1884" weight="0.01107048206917374" />
+      <edge source="RUS" target="FRA" id="1885" weight="0.010885974034687511" />
+      <edge source="RUS" target="CZE" id="1886" weight="0.00973699218356872" />
+      <edge source="RUS" target="FIN" id="1887" weight="0.009636351437485324" />
+      <edge source="RUS" target="SWE" id="1888" weight="0.008442640365885023" />
+      <edge source="RUS" target="AUS" id="1889" weight="0.008316839433280775" />
+      <edge source="RUS" target="POL" id="1890" weight="0.006295637782772541" />
+      <edge source="LCA" target="USA" id="1891" weight="0.41378546099290775" />
+      <edge source="LCA" target="GBR" id="1892" weight="0.3255762411347518" />
+      <edge source="LCA" target="CAN" id="1893" weight="0.09596631205673763" />
+      <edge source="LCA" target="FRA" id="1894" weight="0.06405141843971633" />
+      <edge source="LCA" target="GUF" id="1895" weight="0.02947695035460993" />
+      <edge source="LCA" target="TTO" id="1896" weight="0.014849290780141846" />
+      <edge source="LCA" target="CHL" id="1897" weight="0.013297872340425534" />
+      <edge source="WSM" target="AUS" id="1898" weight="0.5892689470154259" />
+      <edge source="WSM" target="USA" id="1899" weight="0.20026827632461436" />
+      <edge source="WSM" target="NZL" id="1900" weight="0.19691482226693494" />
+      <edge source="STP" target="GAB" id="1901" weight="0.31514408338442673" />
+      <edge source="STP" target="AGO" id="1902" weight="0.23850398528510122" />
+      <edge source="STP" target="PRT" id="1903" weight="0.18638871857755976" />
+      <edge source="STP" target="GNQ" id="1904" weight="0.09135499693439608" />
+      <edge source="SGP" target="GBR" id="1905" weight="0.25540871984478525" />
+      <edge source="SGP" target="AUS" id="1906" weight="0.19251747995753563" />
+      <edge source="SGP" target="MYS" id="1907" weight="0.14536735366255446" />
+      <edge source="SGP" target="HKG" id="1908" weight="0.10689314346377717" />
+      <edge source="SGP" target="USA" id="1909" weight="0.10564849727276057" />
+      <edge source="SGP" target="IDN" id="1910" weight="0.036570633671340204" />
+      <edge source="SGP" target="CAN" id="1911" weight="0.030750082366292068" />
+      <edge source="SGP" target="NLD" id="1912" weight="0.021195592488194165" />
+      <edge source="SGP" target="CHE" id="1913" weight="0.012519676391990336" />
+      <edge source="SGP" target="JPN" id="1914" weight="0.010652707105465464" />
+      <edge source="SGP" target="SWE" id="1915" weight="0.009041988505326354" />
+      <edge source="SLB" target="AUS" id="1916" weight="0.7656675749318802" />
+      <edge source="SLB" target="GBR" id="1917" weight="0.14713896457765668" />
+      <edge source="PSE" target="JOR" id="1918" weight="0.6662510148333878" />
+      <edge source="PSE" target="EGY" id="1919" weight="0.17946291204478276" />
+      <edge source="PSE" target="LBY" id="1920" weight="0.07833840936921097" />
+      <edge source="PSE" target="ARE" id="1921" weight="0.017766873146947876" />
+      <edge source="PSE" target="SWE" id="1922" weight="0.016313586880951633" />
+      <edge source="PSE" target="USA" id="1923" weight="0.014398299116814612" />
+      <edge source="PSE" target="DZA" id="1924" weight="0.005449823497485904" />
+      <edge source="PSE" target="KWT" id="1925" weight="0.0037588083052618837" />
+      <edge source="PSE" target="CHL" id="1926" weight="0.0031487869096585236" />
+      <edge source="PSE" target="CAN" id="1927" weight="0.0026195036399438423" />
+      <edge source="SYR" target="TUR" id="1928" weight="0.4708363937698929" />
+      <edge source="SYR" target="DEU" id="1929" weight="0.2631212444761233" />
+      <edge source="SYR" target="SAU" id="1930" weight="0.06946551135488364" />
+      <edge source="SYR" target="SWE" id="1931" weight="0.040360095673955224" />
+      <edge source="SYR" target="NLD" id="1932" weight="0.029456973521609944" />
+      <edge source="SYR" target="JOR" id="1933" weight="0.024533232115581404" />
+      <edge source="SYR" target="EGY" id="1934" weight="0.016461889053560896" />
+      <edge source="SYR" target="DNK" id="1935" weight="0.016017612661490845" />
+      <edge source="SYR" target="QAT" id="1936" weight="0.008760937287972713" />
+      <edge source="SYR" target="NOR" id="1937" weight="0.008241809982021295" />
+      <edge source="SYR" target="LBY" id="1938" weight="0.007930333598450443" />
+      <edge source="SYR" target="BEL" id="1939" weight="0.007544972119241852" />
+      <edge source="SYR" target="GRC" id="1940" weight="0.006649658607396333" />
+      <edge source="SYR" target="AUS" id="1941" weight="0.005628305814757028" />
+      <edge source="SYR" target="AUT" id="1942" weight="0.004074304260755474" />
+      <edge source="TJK" target="DEU" id="1943" weight="0.5119948130538146" />
+      <edge source="TJK" target="KAZ" id="1944" weight="0.15366328074346228" />
+      <edge source="TJK" target="USA" id="1945" weight="0.08277501620920683" />
+      <edge source="TJK" target="UKR" id="1946" weight="0.06332396801383185" />
+      <edge source="TJK" target="SWE" id="1947" weight="0.027663712988977737" />
+      <edge source="TJK" target="POL" id="1948" weight="0.022260644045818033" />
+      <edge source="TJK" target="TUR" id="1949" weight="0.020963907499459693" />
+      <edge source="TLS" target="IDN" id="1950" weight="0.5596638655462184" />
+      <edge source="TLS" target="AUS" id="1951" weight="0.20616246498599441" />
+      <edge source="TON" target="USA" id="1952" weight="0.42393947581734664" />
+      <edge source="TON" target="AUS" id="1953" weight="0.30316130775466105" />
+      <edge source="TON" target="NZL" id="1954" weight="0.17535801134828424" />
+      <edge source="TKM" target="TUR" id="1955" weight="0.33931947069943286" />
+      <edge source="TKM" target="DEU" id="1956" weight="0.2556710775047259" />
+      <edge source="TKM" target="UKR" id="1957" weight="0.10680529300567108" />
+      <edge source="TKM" target="USA" id="1958" weight="0.08648393194706995" />
+      <edge source="TKM" target="GBR" id="1959" weight="0.03260869565217391" />
+      <edge source="TKM" target="KAZ" id="1960" weight="0.0222117202268431" />
+      <edge source="UZB" target="KAZ" id="1961" weight="0.4003409306143065" />
+      <edge source="UZB" target="USA" id="1962" weight="0.15433423827261816" />
+      <edge source="UZB" target="DEU" id="1963" weight="0.10906622892859397" />
+      <edge source="UZB" target="TUR" id="1964" weight="0.08889450091546185" />
+      <edge source="UZB" target="UKR" id="1965" weight="0.06938569354125891" />
+      <edge source="UZB" target="LBY" id="1966" weight="0.0543910600416693" />
+      <edge source="UZB" target="SWE" id="1967" weight="0.02440179304249006" />
+      <edge source="UZB" target="CAN" id="1968" weight="0.014331712860660394" />
+      <edge source="UZB" target="KOR" id="1969" weight="0.01363722457225835" />
+      <edge source="VEN" target="COL" id="1970" weight="0.5463522518727589" />
+      <edge source="VEN" target="PER" id="1971" weight="0.3269732467692825" />
+      <edge source="VEN" target="ARG" id="1972" weight="0.04921267908743876" />
+      <edge source="VEN" target="CHL" id="1973" weight="0.030055383727772347" />
+      <edge source="VEN" target="ESP" id="1974" weight="0.02315495478661939" />
+      <edge source="VEN" target="USA" id="1975" weight="0.01031349145860207" />
+      <edge source="VEN" target="TTO" id="1976" weight="0.003032254997893812" />
+      <edge source="VEN" target="ITA" id="1977" weight="0.0025607530045276203" />
+      <edge source="VEN" target="PAN" id="1978" weight="0.0019619509364750772" />
+      <edge source="VEN" target="AUS" id="1979" weight="0.0009107692038718892" />
+      <edge source="VEN" target="CAN" id="1980" weight="0.0008075086282679379" />
+      <edge source="VEN" target="CUW" id="1981" weight="0.0006310368509130366" />
+      <edge source="VEN" target="GBR" id="1982" weight="0.0006037192383193987" />
+      <edge source="VEN" target="DEU" id="1983" weight="0.00040593972314145987" />
+    </edges>
+  </graph>
+</gexf>
