@@ -46,25 +46,27 @@ def getDegreeSequences(G_UD, G_D):
     for origin_node, neighborhoods in neighborhood_by_layer.items():
         degree_vectors[origin_node] = {}
         for layer in range(diameter+1):
-            # If all nodes are already included, the vec-in and vec_out are not recalculated
-            # but are added for all further layers
+            # DEL: [If all nodes are already included, the vec-in and vec_out are not recalculated but are added for all further layers]
             if layer in neighborhoods.keys():
                 nodes = neighborhoods[layer]
                 vector_in = [degreeDict[node]["inDegree"] for node in nodes]
                 vector_out = [degreeDict[node]["outDegree"] for node in nodes]
-                if layer == 0:
-                    degree_vectors[origin_node][layer] = {"in": vector_in, "out":vector_out}
-                    continue
-                else:
-                    vec_in_prev = degree_vectors[origin_node][layer-1]["in"].copy()
-                    vec_in_prev.extend(vector_in)
+                degree_vectors[origin_node][layer] = {"in": vector_in, "out":vector_out}
+            else:
+                degree_vectors[origin_node][layer] = {"in": [1], "out":[1]}
+            #     if layer == 0:
+            #         degree_vectors[origin_node][layer] = {"in": vector_in, "out":vector_out}
+            #         continue
+            #     else:
+            #         vec_in_prev = degree_vectors[origin_node][layer-1]["in"].copy()
+            #         vec_in_prev.extend(vector_in)
 
-                    vec_out_prev = degree_vectors[origin_node][layer-1]["out"].copy()
-                    vec_out_prev.extend(vector_out)
+            #         vec_out_prev = degree_vectors[origin_node][layer-1]["out"].copy()
+            #         vec_out_prev.extend(vector_out)
 
-            degree_vectors[origin_node][layer] = {}
-            degree_vectors[origin_node][layer]["in"] = vec_in_prev
-            degree_vectors[origin_node][layer]["out"] = vec_out_prev
+            # degree_vectors[origin_node][layer] = {}
+            # degree_vectors[origin_node][layer]["in"] = vec_in_prev
+            # degree_vectors[origin_node][layer]["out"] = vec_out_prev
 
     # 4
     # Finally return the dictionary

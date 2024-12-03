@@ -95,7 +95,10 @@ class GraphAlgorithms():
             dist_in, conv_vect = fastdtw.fastdtw(arr0_in, arr1_in, dist=self.d_func)
             dist_out, conv_vect = fastdtw.fastdtw(arr0_out, arr1_out, dist=self.d_func)
 
-            edge = (v0,v1,{"weight": np.exp(-np.mean([dist_in, dist_out]))})
+            prev_weight = 0
+            if n_steps != 0:
+                prev_weight = self.G_ML[n_steps-1].edges[v0,v1]["weight"]
+            edge = (v0,v1,{"weight": prev_weight + np.exp(-np.mean([dist_in, dist_out]))})
             edgelist_dist.append(edge)
         return edgelist_dist
 
@@ -121,21 +124,20 @@ class GraphAlgorithms():
         This function takes a s2vG-object as input and generates the responding context graph for it. If a path is defined, it loads the graph otherwise the graph is 
         created. It outputs the context graph as a dictionary object, with layers as keys and graphs as values.
         """
+        self.G_ML = {}
         if path:
-            G_ML = {}
             for file in os.listdir(path):
                 layer_n = int(file.split(".")[0])
                 graph = nx.read_gexf(path + file)
-                G_ML[layer_n] = graph
+                self.G_ML[layer_n] = graph
         else:
-            G_ML = {}
             for i in range(n_level+1):
                 edgelist_i = self.calculateDistances(s2vG, i)
                 G_i = nx.Graph(edgelist_i)
-                G_ML[i] = G_i
+                self.G_ML[i] = G_i
 
-        adj_dicts = self.getAdjacencyDicts(G_ML)
-        return G_ML, adj_dicts
+        adj_dicts = self.getAdjacencyDicts(self.G_ML)
+        return self.G_ML, adj_dicts
 
     
     def getAdjacencyDicts(self, G_ML):
