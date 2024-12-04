@@ -1,0 +1,5 @@
+version1
+første version, backboning naive, degree sequence for neighborhood
+
+version2 (nuværende)
+backboning by node, degree sequence by ring
