@@ -9,7 +9,7 @@ def random_walk_step(current_node, s2vG, n_layer):
     weight_total = sum(adj_dict[current_node].values())
     neigh = list(adj_dict[current_node].keys())
     prob = [w / weight_total for w in adj_dict[current_node].values()]
-    return int(np.random.choice(neigh, size=1, p=prob)[0])
+    return np.random.choice(neigh, size=1, p=prob)[0]
 
 def random_walk(s2vG, start_node, number_of_walks, walk_length, q):
     # Start at the bottom layer
@@ -17,7 +17,7 @@ def random_walk(s2vG, start_node, number_of_walks, walk_length, q):
     walks = []
     for i in range(number_of_walks):
         current_node = start_node if start_node else np.random.choice(s2vG.nodes)
-        walk = [int(current_node)]
+        walk = [current_node]
         for j in range(walk_length):
             n_layer = getLayer(s2vG, n_layer, current_node, q)
             current_node = random_walk_step(current_node, s2vG, n_layer)
